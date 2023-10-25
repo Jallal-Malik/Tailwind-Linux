@@ -625,7 +625,7 @@
   #slide4:checked ~ #controls label:nth-child(5),
   #slide5:checked ~ #controls label:nth-child(6),
   #slide6:checked ~ #controls label:nth-child(1) {
-    background: url(../images/arrow-right.png) no-repeat;
+    background: url(./images/arrow-right.png) no-repeat;
     background-size: cover;
     float: right;
     margin: 35px -85px 0 0;
@@ -637,7 +637,7 @@
   #slide4:checked ~ #controls label:nth-last-child(4),
   #slide5:checked ~ #controls label:nth-last-child(3),
   #slide6:checked ~ #controls label:nth-last-child(2) {
-    background: url(../images/arrow-left.png) no-repeat;
+    background: url(./images/arrow-left.png) no-repeat;
     background-size: cover;
     float: left;
     margin: 35px 0 0 -85px;
