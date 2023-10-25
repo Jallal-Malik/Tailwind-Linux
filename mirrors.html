@@ -1,0 +1,4950 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mirrors - Linux Mint</title>
+    <link rel="website icon" type="png" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/7c051f6c7f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- =======================
+	header Start-->
+    <header>
+      <div class="header bg-grad">
+        <div
+          class="navbar-top h-[px] lg:flex lg:items-center lg:pt-[3px] lg:pb-1 lg:top-nav-border hidden"
+        >
+          <div class="container">
+            <div class="flex justify-between items-center h-8">
+              <!-- navbar top Left-->
+              <div class="flex items-center">
+                <!-- Language -->
+                <!-- <div class="dropdown">
+                                          <a class="dropdown-toggle" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img class="dropdown-item-icon" src="web/img/flags/gb.png" alt=""> English </a>
+                                          <div class="dropdown-menu mt-2 shadow" aria-labelledby="dropdownLanguage">
+                                              <span class="dropdown-item-text">Select language</span>
+                                              <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#"><img class="dropdown-item-icon" src="web/img/flags/es.png" alt=""> Español</a>
+                                            <a class="dropdown-item" href="#"><img class="dropdown-item-icon" src="web/img/flags/fr.png" alt=""> Français</a>
+                                            <a class="dropdown-item" href="#"><img class="dropdown-item-icon" src="web/img/flags/de.png" alt=""> Deutsch</a>
+                                          </div>
+                                        </div> -->
+              </div>
+              <!-- navbar top Right-->
+              <div class="flex items-center">
+                <!-- top link -->
+                <!-- top social -->
+                <ul class="social-icons flex gap-5 text-white">
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-rss" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-hashtag" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fab fa-mastodon" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Logo Nav Start -->
+        <nav
+          class="lg:container flex flex-wrap justify-between items-center lg:my-5 lg:py-3 xl:px-4 pt-3 first-nav"
+        >
+          <a class="logo-1" href="#">
+            <img class="h-[48.2px]" src="./images/logo-mono.svg" alt="" />
+          </a>
+          <label for="toggler" class="linebar"
+            ><i class="fa fa-bars text-white text-[30px]"></i
+          ></label>
+          <input type="checkbox" id="toggler" />
+          <div class="menu">
+            <ul class="ul flex items-center">
+              <li class="lg:white nav-link home text-[#495057]">
+                <a href="#">Home</a>
+              </li>
+              <li
+                class="lg:white nav-link dropdown h-[57px] lg:mt-[35px] cursor-pointer transition-color text-[#8f9397]"
+              >
+                <input type="checkbox" id="menu-click" />
+                <label
+                  for="menu-click"
+                  class="items-center lg:gap-1 download-gap cursor-pointer"
+                >
+                  Download
+                  <i class="fas fa-angle-down text-[0.6rem] pt-[2px]"></i>
+                </label>
+                <div class="dropdown-menu">
+                  <div
+                    class="flex flex-wrap lg:flex-nowrap bg-[#fff] pt-4 pb-4"
+                  >
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold font-family text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Latest version
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a class="flex" href="download.html"
+                          >Linux Mint 21.2
+                          <div
+                            class="text-[#fff] bg-[#28a745] ml-2 py-[0.25em] px-[0.4em] text-[75%] font-bold rounded-[0.25rem] text-center"
+                          >
+                            Recommended
+                          </div></a
+                        >
+                      </li>
+                    </ul>
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Other versions
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="lmde-6.html">LMDE 6</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="all-versions.html">All versions</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="bg-grad lg:flex items-center p-6 checkout">
+                    <div class="mr-6">
+                      <h4 class="text-[#fbfbfb] text-[1.39rem] font-semibold">
+                        Checkout the doc!
+                      </h4>
+                      <small class="font-semibold white-i">
+                        Follow the guide to learn how to download and install
+                        Linux Mint.
+                      </small>
+                    </div>
+                    <a class="white hero-btn-2 whitespace-nowrap" href="#"
+                      >Installation Guide</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li
+                class="lg:white nav-link dropdown h-[57px] lg:mt-[35px] cursor-pointer transition-color text-[#8f9397]"
+              >
+                <input type="checkbox" id="menu-click2" />
+                <label
+                  for="menu-click2"
+                  class="items-center lg:gap-1 download-gap-2 cursor-pointer"
+                >
+                  Project
+                  <i class="fas fa-angle-down text-[0.6rem] pt-[2px]"></i>
+                </label>
+                <div class="dropdown-menu">
+                  <div
+                    class="flex flex-wrap lg:flex-nowrap bg-[#fff] pt-4 pb-4"
+                  >
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Funding
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="#">Donors</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="sponsors.html">Sponsors</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="partners.html">Partners</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="store.html">Store</a>
+                      </li>
+                    </ul>
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Contributing
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="get-involved.html">Get Involved</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="mirrors.html">Mirrors</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="bg-grad lg:flex items-center p-6 checkout">
+                    <div>
+                      <small class="font-semibold white-i">
+                        Every little helps, don't hesitate to get involved.
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="lg:white nav-link dropdown-a h-[57px] lg:mt-[35px] cursor-pointer transition-color text-[#8f9397]"
+              >
+                <input type="checkbox" id="menu-click3" />
+                <label
+                  for="menu-click3"
+                  class="items-center lg:gap-1 download-gap-3 cursor-pointer"
+                >
+                  About <i class="fas fa-angle-down text-[0.6rem] pt-[2px]"></i>
+                </label>
+                <div class="dropdown-menu">
+                  <div class="flex flex-wrap lg:flex-nowrap bg-[#fff] pt-4">
+                    <ul class="pr-12">
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="about.html">About Linux Mint</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="faq.html">FAQ</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="documentation.html">Documentation</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="screenshots.html">Screenshots</a>
+                      </li>
+                    </ul>
+                    <ul class="pr-12">
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="privacy&cookies.html">Privacy & Cookies</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="teams.html">Team</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="contactus.html">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="lg:white nav-link dropdown-a h-[57px] lg:mt-[35px] cursor-pointer transition-color text-[#8f9397]"
+              >
+                <input type="checkbox" id="menu-click4" />
+                <label
+                  for="menu-click4"
+                  class="items-center lg:gap-1 download-gap-4 cursor-pointer"
+                >
+                  Links <i class="fas fa-angle-down text-[0.6rem] pt-[2px]"></i>
+                </label>
+                <div class="dropdown-menu">
+                  <div
+                    class="flex flex-wrap lg:flex-nowrap bg-[#fff] pt-4 pb-4"
+                  >
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold font-family text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Official
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="index.html"
+                          target="_blank"
+                          ><i class="fas fa-igloo pr-[0.3rem]"></i> Website
+                          <div
+                            class="text-[#fff] bg-[#28a745] ml-2 py-[0.25em] px-[0.4em] text-[75%] font-bold rounded-[0.25rem] text-center"
+                          >
+                            Here
+                          </div></a
+                        >
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a class="flex items-center" href="#"
+                          ><i class="fas fa-blog pr-[0.3rem]"></i> Blog
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a class="flex items-center" href="#"
+                          ><i class="fas fa-comments pr-[0.3rem]"></i> Forums
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer checkout"
+                      >
+                        <a class="flex items-center" href="#"
+                          ><i class="fas fa-users pr-[0.3rem]"></i> Community
+                          website
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Social
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://www.github.com/linuxmint"
+                          ><i class="fab fa-github pr-[0.3rem]"></i> Github
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://www.facebook.com/pages/Linux-Mint/185238108180410"
+                          ><i class="fab fa-facebook pr-[0.3rem]"></i> Facebook
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://twitter.com/linux_mint"
+                          ><i class="fab fa-twitter pr-[0.3rem]"></i> Twitter
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer checkout"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://widget00.mibbit.com/?settings=afafcb2fef3d61ee26d44fe55394b54b&server=irc.spotchat.org&channel=%23linuxmint-help&autoConnect=1"
+                          ><i class="fas fa-hashtag pr-[0.3rem]"></i> IRC Chat
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Community
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://www.reddit.com/r/linuxmint/"
+                          ><i class="fab fa-reddit pr-[0.3rem]"></i> Reddit
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://discord.gg/mint"
+                          ><i class="fab fa-discord pr-[0.3rem]"></i> Discord
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a class="flex items-center" href="#"
+                          ><i class="fas fa-globe pr-[0.3rem]"></i> Local
+                          communities
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="bg-grad lg:flex items-center p-6 checkout">
+                    <div class="mr-6">
+                      <small class="font-semibold white-i">
+                        Websites in the right column are maintained by the
+                        community.
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <div class="xl:nav-button donate-btn b-radius donate-buttton">
+                <button>Donate</button>
+              </div>
+            </ul>
+          </div>
+        </nav>
+        <!-- hero-section-start -->
+        <div class="hero-section">
+          <div class="md:container about-h1">
+            <div>
+              <h1 class="text-[56px] white font-semibold pb-[3px]">Mirrors</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- =======================
+                  header end-->
+
+    <!-- hero below section -->
+
+    <section class="py-12 mirror-center">
+      <div class="md:container">
+        <div class="mb-[1.4rem]">
+          <h2 class="text-[#68c174] text-[30px] font-medium">
+            How to mirror Linux Mint
+          </h2>
+          <p class="para pt-6 pb-[21px]">
+            The following archives can be mirrored. The table below indicates
+            the rsync address for each archive as well as the frequency and an
+            estimation of the disk space they require.
+          </p>
+          <div class="mb-12 overflow-x-auto">
+              <table class="table-1">
+                <thead class="bg-grad white-i">
+                  <tr>
+                    <th>ARCHIVE</th>
+                    <th>RSYNC ADDRESS</th>
+                    <th>REQUIRED FREQUENCY</th>
+                    <th>SIZE</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="para">
+                    <td>ISO images</td>
+                    <td>pub.linuxmint.com::pub</td>
+                    <td>Once a day</td>
+                    <td>200GB</td>
+                  </tr>
+                  <tr class="para">
+                    <td>Linux Mint repositories</td>
+                    <td>rsync-packages.linuxmint.com::packages</td>
+                    <td>Twice a day</td>
+                    <td>25GB</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <p class="para pb-[21px]">
+            If you are mirroring some of these archives at the required
+            frequency, please contact us by email at root@linuxmint.com to tell
+            us about your mirror.
+          </p>
+          <h2 class="text-[#68c174] text-[30px] font-medium pb-[25px]">
+            Download mirrors
+          </h2>
+          <div class="mb-[49px]">
+            <div class="overflow-x-auto">
+              <table class="table-1">
+                <thead class="bg-grad white-i">
+                  <tr>
+                    <th
+                      class="border-b-2 border-solid border-[#dee2e6] w-[200px] text-[0.9375rem]"
+                    >
+                      LOCATION
+                    </th>
+                    <th
+                      class="border-b-2 border-solid border-[#dee2e6] text-[0.9375rem]"
+                    >
+                      MIRROR
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="table-body">
+                  <tr>
+                    <td class="flex items-center gap-[7px] width-d">
+                      <img
+                        class="h-[18px]"
+                        src="./images/world-flag.png"
+                        alt=""
+                      />
+                      Worldwide
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.layeronline.com/linuxmint/"
+                        >LayerOnline</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/world-flag.png"
+                        alt=""
+                      />
+                      Worldwide
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.rackspace.com/linuxmint/iso/"
+                        >Rackers</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/canada-flag.png"
+                        alt=""
+                      />
+                      Canada
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://muug.ca/mirror/linuxmint/iso/"
+                        >Manitoba Unix User Group</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/canada-flag.png"
+                        alt=""
+                      />
+                      Canada
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.csclub.uwaterloo.ca/linuxmint/"
+                        >University of Waterloo Computer Science Club</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.advancedhosters.com/linuxmint/isos/"
+                        >advancedhosters.com</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.clarkson.edu/linuxmint-images/"
+                        >Clarkson University</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.fcix.net/linuxmint-images/"
+                        >Fremont Cabal Internet Exchange</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.gigenet.com/linuxmint/iso/"
+                        >GigeNET</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.seas.harvard.edu/linuxmint/"
+                        >Harvard School of Engineering</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.cs.jmu.edu/pub/linuxmint/images/"
+                        >James Madison University</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.kernel.org/linuxmint/"
+                        >kernel.org</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.iu13.net/linuxmint/iso/"
+                      >
+                        Lancaster-Lebanon Intermediate Unit 13</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://linuxfreedom.com/linuxmint/linuxmint.com/"
+                      >
+                        Linux Freedom</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://mirror.metrocast.net/linuxmint/"
+                        >MetroCast Cablevision</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.ocf.berkeley.edu/linux-mint/"
+                        >Open Computing Facility at UC Berkeley</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://plug-mirror.rcac.purdue.edu/mint-images/"
+                      >
+                        Purdue Linux Users Group</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror2.sandyriver.net/pub/linuxmint/"
+                        >Skynet Communications of Kentucky</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.sonic.net/mint/isos/"
+                        >Sonic</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://mirror.team-cymru.com/mint/"
+                        >Team Cymru</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.cs.pitt.edu/linuxmint/iso/"
+                        >University of Pittsburgh</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://mirrors.usinternet.com/mint/images/linuxmint.com/"
+                        >US Internet</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.xmission.com/linuxmint/iso/"
+                      >
+                        XMission Internet</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/belarus-flag.png"
+                        alt=""
+                      />
+                      Belarus
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp.mgts.by/pub/linuxmint/isos/"
+                      >
+                        ByFly</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/belgium-flag.png"
+                        alt=""
+                      />
+                      Belgium
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors-linux-mint.behostings.com/package/"
+                        >BeHostings</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/bulgaria-flag.png"
+                        alt=""
+                      />
+                      Bulgaria
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.darknet.bg/mint/iso/"
+                        >DarkNET LTD</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/bulgaria-flag.png"
+                        alt=""
+                      />
+                      Bulgaria
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://mint.ipacct.com/iso/"
+                        >IPACCT</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/bulgaria-flag.png"
+                        alt=""
+                      />
+                      Bulgaria
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.netix.net/LinuxMint/linuxmint-iso/"
+                        >Netix Ltd</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/bulgaria-flag.png"
+                        alt=""
+                      />
+                      Bulgaria
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.telepoint.bg/mint/"
+                      >
+                        Telepoint</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/bulgaria-flag.png"
+                        alt=""
+                      />
+                      Bulgaria
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.uni-ruse.bg/linuxmint/iso/"
+                        >University of Ruse</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/czech-republic-flag.png"
+                        alt=""
+                      />
+                      Czech Republic
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.nic.cz/linuxmint-cd/"
+                        >CZ.NIC</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/czech-republic-flag.png"
+                        alt=""
+                      />
+                      Czech Republic
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.karneval.cz/pub/linux/linuxmint/iso/"
+                        >UPC Ceska republika</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/czech-republic-flag.png"
+                        alt=""
+                      />
+                      Czech Republic
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror-prg.webglobe.com/linuxmint-cd/linuxmint.com/"
+                        >Webglobe</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/denmark-flag.png"
+                        alt=""
+                      />
+                      Denmark
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.dotsrc.org/linuxmint-cd/"
+                        >Dotsrc.org</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/denmark-flag.png"
+                        alt=""
+                      />
+                      Denmark
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://ftp.klid.dk/ftp/linuxmint/"
+                        >KLID</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/france-flag.png"
+                        alt=""
+                      />
+                      France
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp.crifo.org/mint-cd/"
+                        >Crifo.org</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/france-flag.png"
+                        alt=""
+                      />
+                      France
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.johnnybegood.fr/mint-cd/"
+                        >Johnnybegood</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/france-flag.png"
+                        alt=""
+                      />
+                      France
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.univ-reims.fr/IMAGES/mint/"
+                        >Université de Reims</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.dogado.de/linuxmint-cd/"
+                        >dogado GmbH</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp.fau.de/mint/iso/"
+                        >Friedrich-Alexander-University of Erlangen-Nuremberg</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://mirror.funkfreundelandshut.de/linuxmint/isos/"
+                        >Funkfreunde Landshut e.V.</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp5.gwdg.de/pub/linux/debian/mint/"
+                        >GWDG</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp-stud.hs-esslingen.de/pub/Mirrors/linuxmint.com/"
+                        >Hochschule Esslingen University of Applied Sciences</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.as20647.net/linuxmint-iso/"
+                        >IPB Internet Provider in Berlin GmbH</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.netcologne.de/linuxmint/iso/"
+                        >NetCologne GmbH</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.netzwerge.de/linuxmint/iso/"
+                        >Netzwerge GmbH</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.pyratelan.org/mint-iso/"
+                        >PyrateLAN.party</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp.rz.uni-frankfurt.de/pub/mirrors/linux-mint/iso/"
+                        >University of Frankfurt</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.wtnet.de/linuxmint-cd/"
+                        >wilhelm.tel GmbH</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/greece-flag.png"
+                        alt=""
+                      />
+                      Greece
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://repo.greeklug.gr/data/pub/linux/mint/iso/"
+                        >GreekLUG</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/greece-flag.png"
+                        alt=""
+                      />
+                      Greece
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://ftp.otenet.gr/linux/linuxmint/"
+                        >Hellenic Telecommunications Organization</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/greece-flag.png"
+                        alt=""
+                      />
+                      Greece
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://ftp.ntua.gr/pub/linux/linuxmint/"
+                        >National Technical University of Athens</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/greece-flag.png"
+                        alt=""
+                      />
+                      Greece
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp.cc.uoc.gr/mirrors/linux/linuxmint/"
+                        >University of Crete</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/greenland-flag.png"
+                        alt=""
+                      />
+                      Greenland
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://mirror.greennet.gl/linuxmint/iso/linuxmint.com/"
+                        >Tele Greenland</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/hungary-flag.png"
+                        alt=""
+                      />
+                      Hungary
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://quantum-mirror.hu/mirrors/linuxmint/iso/"
+                        >Quantum Mirror</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/ireland-flag.png"
+                        alt=""
+                      />
+                      Ireland
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp.heanet.ie/pub/linuxmint.com/"
+                        >HEAnet</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/italy-flag.png"
+                        alt=""
+                      />
+                      Italy
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://linuxmint.mirror.garr.it/linuxmint/iso/"
+                        >GARR</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/latvia-flag.png"
+                        alt=""
+                      />
+                      Latvia
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp.linux.edu.lv/mirrors/linuxmint.com/"
+                        >University of Latvia</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/moldova-flag.png"
+                        alt=""
+                      />
+                      Moldova
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://md.mirrors.hacktegic.com/linuxmint-images/"
+                        >hacktegic.com</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/moldova-flag.png"
+                        alt=""
+                      />
+                      Moldova
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.ihost.md/linuxmint/iso/"
+                        >iHost</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/netherlands-flag.png"
+                        alt=""
+                      />
+                      Netherlands
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.evoluso.com/linuxmint/linuxmint/"
+                        >Evoluso.com</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/netherlands-flag.png"
+                        alt=""
+                      />
+                      Netherlands
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.koddos.net/linuxmint/iso/"
+                        >KoDDoS</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/netherlands-flag.png"
+                        alt=""
+                      />
+                      Netherlands
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp.nluug.nl/os/Linux/distr/linuxmint/iso/"
+                        >NLUUG</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/netherlands-flag.png"
+                        alt=""
+                      />
+                      Netherlands
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mintlinux.mirror.wearetriple.com/iso/"
+                        >Triple IT</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/poland-flag.png"
+                        alt=""
+                      />
+                      Poland
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.host4biz.eu/linuxmint/iso/"
+                        >Host4Biz</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/poland-flag.png"
+                        alt=""
+                      />
+                      Poland
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp.icm.edu.pl/pub/Linux/dist/linuxmint/isos/"
+                        >ICM - University of Warsaw</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/poland-flag.png"
+                        alt=""
+                      />
+                      Poland
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://mirroronet.pl/pub/mirrors/linuxmint/isos/"
+                        >Onet.pl</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/poland-flag.png"
+                        alt=""
+                      />
+                      Poland
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp.psnc.pl/linux/linuxmint/iso/"
+                        >Poznan Supercomputing and Networking Center</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/portugal-flag.png"
+                        alt=""
+                      />
+                      Portugal
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.fccn.pt/repos/pub/linuxmint_imgs/linuxmint.com/"
+                        >FCCN</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/portugal-flag.png"
+                        alt=""
+                      />
+                      Portugal
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.ptisp.pt/linuxmint-iso/"
+                        >PTISP</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/portugal-flag.png"
+                        alt=""
+                      />
+                      Portugal
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp.rnl.tecnico.ulisboa.pt/pub/linuxmint/"
+                        >RNL - Técnico Lisboa</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/portugal-flag.png"
+                        alt=""
+                      />
+                      Portugal
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.up.pt/pub/linuxmint/"
+                        >Universidade do Porto</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/romania-flag.png"
+                        alt=""
+                      />
+                      Romania
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.hostico.ro/linuxmint/iso/"
+                        >Hostico</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/romania-flag.png"
+                        alt=""
+                      />
+                      Romania
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://mirrors.m247.ro/linuxmint/"
+                        >M247</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/romania-flag.png"
+                        alt=""
+                      />
+                      Romania
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mint.mirrors.orange.ro/iso/"
+                        >Orange</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/romania-flag.png"
+                        alt=""
+                      />
+                      Romania
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://mint.mirrors.orange.ro/iso/"
+                        >Orange Romania</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/russia-flag.png"
+                        alt=""
+                      />
+                      Russia
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://mirrors.powernet.com.ru/linuxmint/"
+                        >Powernet ISP</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/russia-flag.png"
+                        alt=""
+                      />
+                      Russia
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.truenetwork.ru/linuxmint/"
+                        >Truenetwork</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/russia-flag.png"
+                        alt=""
+                      />
+                      Russia
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.yandex.ru/linuxmint/"
+                        >Yandex Team</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/serbia-flag.png"
+                        alt=""
+                      />
+                      Serbia
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://mirror.pmf.kg.ac.rs/mint/linuxmint.com/"
+                        >University of Kragujevac</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/slovakia-flag.png"
+                        alt=""
+                      />
+                      Slovakia
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://ftp.energotel.sk/pub/linux/mint/"
+                        >Energotel</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/slovakia-flag.png"
+                        alt=""
+                      />
+                      Slovakia
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://tux.rainside.sk/mint/iso/"
+                        >Rainside</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/spain-flag.png"
+                        alt=""
+                      />
+                      Spain
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.airenetworks.es/linuxmint/iso/"
+                        >Aire Networks</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/spain-flag.png"
+                        alt=""
+                      />
+                      Spain
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp.cixug.es/mint/"
+                      >
+                        Oficina de Software Libre do Cixug</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/sweden-flag.png"
+                        alt=""
+                      />
+                      Sweden
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp.acc.umu.se/mirror/linuxmint.com/iso/"
+                        >Academic Computer Club, Umea University</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/sweden-flag.png"
+                        alt=""
+                      />
+                      Sweden
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.bahnhof.net/pub/linuxmint/iso/"
+                        >Bahnhof</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/sweden-flag.png"
+                        alt=""
+                      />
+                      Sweden
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.c0urier.net/linux/linuxmint/iso/"
+                        >c0urier.net</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/sweden-flag.png"
+                        alt=""
+                      />
+                      Sweden
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://pub.deadnet.se/OS/mint/ISO/"
+                        >Deadnet</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/sweden-flag.png"
+                        alt=""
+                      />
+                      Sweden
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftpmirror1.infania.net/mirror/linuxmint/iso/"
+                      >
+                        Infania Networks</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/sweden-flag.png"
+                        alt=""
+                      />
+                      Sweden
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.zetup.net/linuxmint/iso/"
+                        >Zetup</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/switzerland-flag.png"
+                        alt=""
+                      />
+                      Switzerland
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.init7.net/linuxmint-iso/"
+                        >Init7</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/switzerland-flag.png"
+                        alt=""
+                      />
+                      Switzerland
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.metanet.ch/linuxmint-cd/"
+                        >Metanet.ch</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/turkey-flag.png"
+                        alt=""
+                      />
+                      Turkey
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://kozyatagi.mirror.guzel.net.tr/linuxmint/iso/"
+                        >Guzel Hosting</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/turkey-flag.png"
+                        alt=""
+                      />
+                      Turkey
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp.linux.org.tr/linuxmint/iso/"
+                        >Linux Kullanicilari Dernegi</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/turkey-flag.png"
+                        alt=""
+                      />
+                      Turkey
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.rabisu.com/linuxmint/iso/"
+                        >Rabisu</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/ukraine-flag.png"
+                        alt=""
+                      />
+                      Ukraine
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://linuxmint.astra.in.ua/iso/"
+                        >ASTRA</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/ukraine-flag.png"
+                        alt=""
+                      />
+                      Ukraine
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://linuxmint.astra.in.ua/iso/"
+                      >
+                        Astra.in.ua</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/ukraine-flag.png"
+                        alt=""
+                      />
+                      Ukraine
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://fastmirror.pp.ua/linuxmintiso/"
+                        >FastMirror</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/united-kingdom-flag.png"
+                        alt=""
+                      />
+                      United Kingdom
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.bytemark.co.uk/linuxmint/"
+                        >Bytemark Hosting</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/united-kingdom-flag.png"
+                        alt=""
+                      />
+                      United Kingdom
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.vinehost.net/linuxmint/iso/"
+                        >mirror.vinehost.net</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/united-kingdom-flag.png"
+                        alt=""
+                      />
+                      United Kingdom
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.cov.ukservers.com/linuxmint/iso/"
+                        >UK Dedicated Servers</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/united-kingdom-flag.png"
+                        alt=""
+                      />
+                      United Kingdom
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.ukfast.co.uk/sites/linuxmint.com/isos/"
+                        >UKFast</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/united-kingdom-flag.png"
+                        alt=""
+                      />
+                      United Kingdom
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://www.mirrorservice.org/sites/www.linuxmint.com/pub/linuxmint.com/"
+                        >University of Kent UK Mirror Service</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/china-flag.png"
+                        alt=""
+                      />
+                      China
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.nju.edu.cn/linuxmint-cd/"
+                        >Nanjing University</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/china-flag.png"
+                        alt=""
+                      />
+                      China
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.sjtu.edu.cn/linuxmint-cd/"
+                        >Shanghai Jiao Tong University Linux User Group
+                        (SJTUG)</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/china-flag.png"
+                        alt=""
+                      />
+                      China
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.tuna.tsinghua.edu.cn/linuxmint-cd/"
+                        >TUNA</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/hong-kong-flag.png"
+                        alt=""
+                      />
+                      Hong Kong
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror-hk.koddos.net/linuxmint/"
+                        >KoDDoS</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/india-flag.png"
+                        alt=""
+                      />
+                      India
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.nxtgen.com/linuxmint-mirror/iso/"
+                        >NxtGen DataCenter</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/india-flag.png"
+                        alt=""
+                      />
+                      India
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirrors.piconets.webwerks.in/linuxmint-mirror/iso/"
+                        >PicoNets-WebWerks</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/iran-flag.png"
+                        alt=""
+                      />
+                      Iran
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.hostiran.ir/mint/iso/"
+                        >HostIran</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/israel-flag.png"
+                        alt=""
+                      />
+                      Israel
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.isoc.org.il/pub/mint/"
+                        >Israel Internet Association</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/kazakhstan-flag.png"
+                        alt=""
+                      />
+                      Kazakhstan
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.hoster.kz/linuxmint/iso/"
+                        >Hoster.kz</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/kazakhstan-flag.png"
+                        alt=""
+                      />
+                      Kazakhstan
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.ps.kz/linuxmint/iso/"
+                        >PS Internet Company LLC</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/singapore-flag.png"
+                        alt=""
+                      />
+                      Singapore
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.0x.sg/linuxmint-iso/"
+                        >0x.sg</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/singapore-flag.png"
+                        alt=""
+                      />
+                      Singapore
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.freedif.org/LinuxMint/iso/"
+                        >Freedif</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/south-korea-flag.png"
+                        alt=""
+                      />
+                      South Korea
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.siwoo.org/linuxmint-iso/"
+                        >Archive of Siwoo</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/south-korea-flag.png"
+                        alt=""
+                      />
+                      South Korea
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://ftp.kaist.ac.kr/linuxmint-iso/"
+                        >KAIST</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/thailand-flag.png"
+                        alt=""
+                      />
+                      Thailand
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.kku.ac.th/linuxmint/"
+                        >Khon Kaen University</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/australia-flag.png"
+                        alt=""
+                      />
+                      Australia
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.aarnet.edu.au/pub/linuxmint/"
+                        >AARNet</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/australia-flag.png"
+                        alt=""
+                      />
+                      Australia
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://mirror.internode.on.net/pub/linuxmint/"
+                        >Internode</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/new-zealand-flag.png"
+                        alt=""
+                      />
+                      New Zealand
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://ucmirror.canterbury.ac.nz/linux/mint/isos/"
+                        >University of Canterbury</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/argentina-flag.png"
+                        alt=""
+                      />
+                      Argentina
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mint.zero.com.ar/mintcd/"
+                        >Zero.com.ar</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/brazil-flag.png"
+                        alt=""
+                      />
+                      Brazil
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mint.c3sl.ufpr.br/"
+                        >C3SL</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/brazil-flag.png"
+                        alt=""
+                      />
+                      Brazil
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.ufscar.br/mint-cd/"
+                        >Federal University of Sao Carlos</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/brazil-flag.png"
+                        alt=""
+                      />
+                      Brazil
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.ufam.edu.br/linuxmint/"
+                        >Universidade Federal do Amazonas</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/chile-flag.png"
+                        alt=""
+                      />
+                      Chile
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror1.cl.netactuate.com/linuxmint/"
+                        >NetActuate</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/chile-flag.png"
+                        alt=""
+                      />
+                      Chile
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.ufro.cl/linuxmint-cd/"
+                        >Universidad de La Frontera</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/ecuador-flag.png"
+                        alt=""
+                      />
+                      Ecuador
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.cedia.org.ec/linuxmint/"
+                      >
+                        CEDIA</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/kenya-flag.png"
+                        alt=""
+                      />
+                      Kenya
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://linuxmint.mirror.liquidtelecom.com/iso/"
+                        >Liquid Telecom</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/mauritius-flag.png"
+                        alt=""
+                      />
+                      Mauritius
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://linuxmint-mirror.cloud.mu/iso/"
+                        >cloud.mu</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/south-africa-flag.png"
+                        alt=""
+                      />
+                      South Africa
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="http://mirror.is.co.za/mirrors/linuxmint.com/iso/"
+                        >Dimension Data</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/south-africa-flag.png"
+                        alt=""
+                      />
+                      South Africa
+                    </td>
+                    <td>
+                      <a
+                        class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                        href="https://mirror.ufs.ac.za/linuxmint/"
+                        >University of Free State</a
+                      >
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <h2 class="text-[#68c174] text-[30px] font-medium mb-[25px]">
+            Repository mirrors
+          </h2>
+          <div class="mb-16">
+            <div class="overflow-x-auto">
+              <table class="table-1">
+                <thead class="bg-grad white-i">
+                  <tr>
+                    <th
+                      class="border-b-2 border-solid border-[#dee2e6] w-[200px] text-[0.9375rem]"
+                    >
+                      LOCATION
+                    </th>
+                    <th
+                      class="border-b-2 border-solid border-[#dee2e6] text-[0.9375rem]"
+                    >
+                      MIRROR
+                    </th>
+                    <th>DEB/DEB-SRC ADDRESS</th>
+                  </tr>
+                </thead>
+                <tbody class="table-body">
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/world-flag.png"
+                        alt=""
+                      />
+                      Worldwide
+                    </td>
+                    <td>LayerOnline</td>
+                    <td>https://mirrors.layeronline.com/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/world-flag.png"
+                        alt=""
+                      />
+                      Worldwide
+                    </td>
+                    <td>Rackers</td>
+                    <td>https://mirror.rackspace.com/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/canada-flag.png"
+                        alt=""
+                      />
+                      Canada
+                    </td>
+                    <td>Manitoba Unix User Group</td>
+                    <td>https://muug.ca/mirror/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/canada-flag.png"
+                        alt=""
+                      />
+                      Canada
+                    </td>
+                    <td>SCD31</td>
+                    <td>hhttp://mirror.scd31.com/mint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/canada-flag.png"
+                        alt=""
+                      />
+                      Canada
+                    </td>
+                    <td>University of Waterloo Computer Science Club</td>
+                    <td>
+                      https://mirror.csclub.uwaterloo.ca/linuxmint-packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>advancedhosters.com</td>
+                    <td>
+                      https://mirrors.advancedhosters.com/linuxmint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>Clarkson University</td>
+                    <td>https://mirror.clarkson.edu/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>Fremont Cabal Internet Exchange</td>
+                    <td>https://mirror.fcix.net/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>GigeNET</td>
+                    <td>https://mirrors.gigenet.com/linuxmint/repo/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>Harvard School of Engineering</td>
+                    <td>
+                      https://mirrors.seas.harvard.edu/linuxmint-packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>James Madison University</td>
+                    <td>https://mirror.cs.jmu.edu/pub/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>kernel.org</td>
+                    <td>https://mirrors.kernel.org/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>Lancaster-Lebanon Intermediate Unit 13</td>
+                    <td>https://mirrors.iu13.net/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>MetroCast Cablevision</td>
+                    <td>http://mirror.metrocast.net/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>Open Computing Facility at UC Berkeley</td>
+                    <td>
+                      https://mirrors.ocf.berkeley.edu/linuxmint-packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>Purdue Linux Users Group</td>
+                    <td>https://plug-mirror.rcac.purdue.edu/mint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>Skynet Communications of Kentucky</td>
+                    <td>https://mirror2.sandyriver.net/pub/mint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>Sonic</td>
+                    <td>https://mirrors.sonic.net/mint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>Team Cymru</td>
+                    <td>http://mirror.team-cymru.com/mint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>TeraSwitch</td>
+                    <td>https://mirror.pit.teraswitch.com/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>University of Pittsburgh</td>
+                    <td>https://mirror.cs.pitt.edu/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>US Internet</td>
+                    <td>http://mirrors.usinternet.com/mint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/usa-flag.png"
+                        alt=""
+                      />
+                      USA
+                    </td>
+                    <td>XMission Internet</td>
+                    <td>https://mirrors.xmission.com/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img class="h-[18px]" src="./images/at.png" alt="" />
+                      Austria
+                    </td>
+                    <td>Alwyzon</td>
+                    <td>https://mirror.alwyzon.net/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/belarus-flag.png"
+                        alt=""
+                      />
+                      Belarus
+                    </td>
+                    <td>ByFly</td>
+                    <td>https://ftp.mgts.by/pub/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/belgium-flag.png"
+                        alt=""
+                      />
+                      Belgium
+                    </td>
+                    <td>BeHostings</td>
+                    <td>https://mirrors-linux-mint.behostings.com/mint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/bulgaria-flag.png"
+                        alt=""
+                      />
+                      Bulgaria
+                    </td>
+                    <td>Celtis.net</td>
+                    <td>http://mint.celtis.net/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/bulgaria-flag.png"
+                        alt=""
+                      />
+                      Bulgaria
+                    </td>
+                    <td>DarkNET LTD</td>
+                    <td>https://mirror.darknet.bg/mint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/bulgaria-flag.png"
+                        alt=""
+                      />
+                      Bulgaria
+                    </td>
+                    <td>IPACCT</td>
+                    <td>http://mint.ipacct.com/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/bulgaria-flag.png"
+                        alt=""
+                      />
+                      Bulgaria
+                    </td>
+                    <td>Netix Ltd</td>
+                    <td>https://mirrors.netix.net/LinuxMint/linuxmint-repo/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/bulgaria-flag.png"
+                        alt=""
+                      />
+                      Bulgaria
+                    </td>
+                    <td>Telepoint</td>
+                    <td>https://mirror.telepoint.bg/mint_packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/bulgaria-flag.png"
+                        alt=""
+                      />
+                      Bulgaria
+                    </td>
+                    <td>University of Ruse</td>
+                    <td>https://mirrors.uni-ruse.bg/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/czech-republic-flag.png"
+                        alt=""
+                      />
+                      Czech Republic
+                    </td>
+                    <td>CZ.NIC</td>
+                    <td>https://mirrors.nic.cz/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/czech-republic-flag.png"
+                        alt=""
+                      />
+                      Czech Republic
+                    </td>
+                    <td>IT4Innovations National Supercomputing Center</td>
+                    <td>https://mirror.it4i.cz/mint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/czech-republic-flag.png"
+                        alt=""
+                      />
+                      Czech Republic
+                    </td>
+                    <td>Silicon Hill</td>
+                    <td>https://ftp.sh.cvut.cz/mint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/czech-republic-flag.png"
+                        alt=""
+                      />
+                      Czech Republic
+                    </td>
+                    <td>UPC Ceska republika</td>
+                    <td>
+                      https://mirror.karneval.cz/pub/linux/linuxmint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/czech-republic-flag.png"
+                        alt=""
+                      />
+                      Czech Republic
+                    </td>
+                    <td>Webglobe</td>
+                    <td>https://mirror-prg.webglobe.com/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/denmark-flag.png"
+                        alt=""
+                      />
+                      Denmark
+                    </td>
+                    <td>Dotsrc.org</td>
+                    <td>https://mirrors.dotsrc.org/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/france-flag.png"
+                        alt=""
+                      />
+                      France
+                    </td>
+                    <td>Crifo.org</td>
+                    <td>https://ftp.crifo.org/mint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/france-flag.png"
+                        alt=""
+                      />
+                      France
+                    </td>
+                    <td>cyberbits</td>
+                    <td>https://mirror.cyberbits.eu/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/france-flag.png"
+                        alt=""
+                      />
+                      France
+                    </td>
+                    <td>Johnnybegood</td>
+                    <td>https://mirror.johnnybegood.fr/mint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/france-flag.png"
+                        alt=""
+                      />
+                      France
+                    </td>
+                    <td>Université de Reims</td>
+                    <td>https://mirrors.univ-reims.fr/mint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>dogado GmbH</td>
+                    <td>https://mirror.dogado.de/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>
+                      Friedrich-Alexander-University of Erlangen-Nuremberg
+                    </td>
+                    <td>https://ftp.fau.de/mint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>Froonix Network</td>
+                    <td>http://linux-mint.froonix.org/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>Funkfreunde Landshut e.V.</td>
+                    <td>http://linux-mint.froonix.org/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>Hochschule Esslingen University of Applied Sciences</td>
+                    <td>
+                      https://ftp-stud.hs-esslingen.de/pub/Mirrors/packages.linuxmint.com/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>IPB Internet Provider in Berlin GmbH</td>
+                    <td>https://mirror.as20647.net/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>NetCologne GmbH</td>
+                    <td>https://mirror.netcologne.de/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>Netzwerge GmbH</td>
+                    <td>https://mirror.netzwerge.de/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>PyrateLAN.party</td>
+                    <td>https://mirror.pyratelan.org/mint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>RWTH Aachen University</td>
+                    <td>https://ftp.halifax.rwth-aachen.de/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>University of Frankfurt</td>
+                    <td>
+                      https://ftp.rz.uni-frankfurt.de/pub/mirrors/linux-mint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>wilhelm.tel GmbH</td>
+                    <td>https://mirror.wtnet.de/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/germany-flag.png"
+                        alt=""
+                      />
+                      Germany
+                    </td>
+                    <td>WRZ</td>
+                    <td>https://ftp.wrz.de/pub/mintpackages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/greece-flag.png"
+                        alt=""
+                      />
+                      Greece
+                    </td>
+                    <td>GreekLUG</td>
+                    <td>
+                      https://repo.greeklug.gr/data/pub/linux/mint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/greece-flag.png"
+                        alt=""
+                      />
+                      Greece
+                    </td>
+                    <td>Hellenic Telecommunications Organization</td>
+                    <td>http://ftp.otenet.gr/linux/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/greece-flag.png"
+                        alt=""
+                      />
+                      Greece
+                    </td>
+                    <td>MyAegean team, University of the Aegean</td>
+                    <td>
+                      http://mirrors.myaegean.gr/linux/linuxmint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/greece-flag.png"
+                        alt=""
+                      />
+                      Greece
+                    </td>
+                    <td>University of Crete</td>
+                    <td>
+                      https://ftp.cc.uoc.gr/mirrors/linux/linuxmint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/greenland-flag.png"
+                        alt=""
+                      />
+                      Greenland
+                    </td>
+                    <td>Tele Greenland</td>
+                    <td>http://mirror.greennet.gl/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/hungary-flag.png"
+                        alt=""
+                      />
+                      Hungary
+                    </td>
+                    <td>Quantum Mirror</td>
+                    <td>
+                      https://quantum-mirror.hu/mirrors/linuxmint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/ireland-flag.png"
+                        alt=""
+                      />
+                      Ireland
+                    </td>
+                    <td>HEAnet</td>
+                    <td>https://ftp.heanet.ie/pub/packages.linuxmint.com/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/italy-flag.png"
+                        alt=""
+                      />
+                      Italy
+                    </td>
+                    <td>GARR</td>
+                    <td>
+                      https://linuxmint.mirror.garr.it/linuxmint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/latvia-flag.png"
+                        alt=""
+                      />
+                      Latvia
+                    </td>
+                    <td>University of Latvia</td>
+                    <td>
+                      https://ftp.linux.edu.lv/mirrors/packages.linuxmint.com/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/moldova-flag.png"
+                        alt=""
+                      />
+                      Moldova
+                    </td>
+                    <td>hacktegic.com</td>
+                    <td>https://md.mirrors.hacktegic.com/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/moldova-flag.png"
+                        alt=""
+                      />
+                      Moldova
+                    </td>
+                    <td>iHost</td>
+                    <td>https://mirror.ihost.md/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/netherlands-flag.png"
+                        alt=""
+                      />
+                      Netherlands
+                    </td>
+                    <td>Evoluso.com</td>
+                    <td>
+                      https://mirrors.evoluso.com/linuxmint-packages/linuxmint-packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/netherlands-flag.png"
+                        alt=""
+                      />
+                      Netherlands
+                    </td>
+                    <td>KoDDoS</td>
+                    <td>https://mirror.koddos.net/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/netherlands-flag.png"
+                        alt=""
+                      />
+                      Netherlands
+                    </td>
+                    <td>LiteServer</td>
+                    <td>https://linuxmint-packages.mirror.liteserver.nl/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/netherlands-flag.png"
+                        alt=""
+                      />
+                      Netherlands
+                    </td>
+                    <td>NLUUG</td>
+                    <td>
+                      https://ftp.nluug.nl/os/Linux/distr/linuxmint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/netherlands-flag.png"
+                        alt=""
+                      />
+                      Netherlands
+                    </td>
+                    <td>Triple IT</td>
+                    <td>https://mintlinux.mirror.wearetriple.com/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/poland-flag.png"
+                        alt=""
+                      />
+                      Poland
+                    </td>
+                    <td>Host4Biz</td>
+                    <td>https://mirror.host4biz.eu/linuxmint/pkg/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/poland-flag.png"
+                        alt=""
+                      />
+                      Poland
+                    </td>
+                    <td>ICM - University of Warsaw</td>
+                    <td>
+                      https://ftp.icm.edu.pl/pub/Linux/dist/linuxmint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/poland-flag.png"
+                        alt=""
+                      />
+                      Poland
+                    </td>
+                    <td>Onet.pl</td>
+                    <td>
+                      http://mirroronet.pl/pub/mirrors/linuxmint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/poland-flag.png"
+                        alt=""
+                      />
+                      Poland
+                    </td>
+                    <td>Poznan Supercomputing and Networking Center</td>
+                    <td>https://ftp.psnc.pl/linux/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/portugal-flag.png"
+                        alt=""
+                      />
+                      Portugal
+                    </td>
+                    <td>FCCN</td>
+                    <td>
+                      https://mirror.fccn.pt/repos/pub/linuxmint_packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/portugal-flag.png"
+                        alt=""
+                      />
+                      Portugal
+                    </td>
+                    <td>PTISP</td>
+                    <td>https://mirrors.ptisp.pt/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/portugal-flag.png"
+                        alt=""
+                      />
+                      Portugal
+                    </td>
+                    <td>RNL - Técnico Lisboa</td>
+                    <td>
+                      https://ftp.rnl.tecnico.ulisboa.pt/pub/linuxmint-packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/portugal-flag.png"
+                        alt=""
+                      />
+                      Portugal
+                    </td>
+                    <td>Universidade do Porto</td>
+                    <td>https://mirrors.up.pt/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/romania-flag.png"
+                        alt=""
+                      />
+                      Romania
+                    </td>
+                    <td>Hostico</td>
+                    <td>https://mirrors.hostico.ro/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/romania-flag.png"
+                        alt=""
+                      />
+                      Romania
+                    </td>
+                    <td>Orange</td>
+                    <td>https://mint.mirrors.orange.ro/repos/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/romania-flag.png"
+                        alt=""
+                      />
+                      Romania
+                    </td>
+                    <td>Orange Romania</td>
+                    <td>http://mint.mirrors.orange.ro/repos/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/russia-flag.png"
+                        alt=""
+                      />
+                      Russia
+                    </td>
+                    <td>Powernet ISP</td>
+                    <td>http://mirrors.powernet.com.ru/mint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/russia-flag.png"
+                        alt=""
+                      />
+                      Russia
+                    </td>
+                    <td>Truenetwork</td>
+                    <td>https://mirror.truenetwork.ru/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/russia-flag.png"
+                        alt=""
+                      />
+                      Russia
+                    </td>
+                    <td>Yandex Team</td>
+                    <td>http://mirror.yandex.ru/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/serbia-flag.png"
+                        alt=""
+                      />
+                      Serbia
+                    </td>
+                    <td>University of Kragujevac</td>
+                    <td>
+                      http://mirror.pmf.kg.ac.rs/mint/packages.linuxmint.com/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/slovakia-flag.png"
+                        alt=""
+                      />
+                      Slovakia
+                    </td>
+                    <td>Energotel</td>
+                    <td>
+                      http://ftp.energotel.sk/pub/linux/linuxmint-packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/slovakia-flag.png"
+                        alt=""
+                      />
+                      Slovakia
+                    </td>
+                    <td>Rainside</td>
+                    <td>https://tux.rainside.sk/mint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/spain-flag.png"
+                        alt=""
+                      />
+                      Spain
+                    </td>
+                    <td>Aire Networks</td>
+                    <td>https://mirror.airenetworks.es/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/spain-flag.png"
+                        alt=""
+                      />
+                      Spain
+                    </td>
+                    <td>Oficina de Software Libre do Cixug</td>
+                    <td>https://ftp.cixug.es/mint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/sweden-flag.png"
+                        alt=""
+                      />
+                      Sweden
+                    </td>
+                    <td>Academic Computer Club, Umea University</td>
+                    <td>
+                      https://ftp.acc.umu.se/mirror/linuxmint.com/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/sweden-flag.png"
+                        alt=""
+                      />
+                      Sweden
+                    </td>
+                    <td>Bahnhof</td>
+                    <td>https://mirror.bahnhof.net/pub/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/sweden-flag.png"
+                        alt=""
+                      />
+                      Sweden
+                    </td>
+                    <td>c0urier.net</td>
+                    <td>
+                      https://mirrors.c0urier.net/linux/linuxmint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/sweden-flag.png"
+                        alt=""
+                      />
+                      Sweden
+                    </td>
+                    <td>Deadnet</td>
+                    <td>http://pub.deadnet.se/OS/mint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/sweden-flag.png"
+                        alt=""
+                      />
+                      Sweden
+                    </td>
+                    <td>Infania Networks</td>
+                    <td>
+                      https://ftpmirror1.infania.net/mirror/linuxmint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/sweden-flag.png"
+                        alt=""
+                      />
+                      Sweden
+                    </td>
+                    <td>Zetup</td>
+                    <td>https://mirror.zetup.net/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/switzerland-flag.png"
+                        alt=""
+                      />
+                      Switzerland
+                    </td>
+                    <td>Init7</td>
+                    <td>https://mirror.init7.net/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/switzerland-flag.png"
+                        alt=""
+                      />
+                      Switzerland
+                    </td>
+                    <td>Metanet.ch</td>
+                    <td>https://mirror.metanet.ch/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/turkey-flag.png"
+                        alt=""
+                      />
+                      Turkey
+                    </td>
+                    <td>Guzel Hosting</td>
+                    <td>
+                      https://kozyatagi.mirror.guzel.net.tr/linuxmint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/turkey-flag.png"
+                        alt=""
+                      />
+                      Turkey
+                    </td>
+                    <td>Verinomi</td>
+                    <td>https://mirror.verinomi.com/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/ukraine-flag.png"
+                        alt=""
+                      />
+                      Ukraine
+                    </td>
+                    <td>ASTRA</td>
+                    <td>https://linuxmint.astra.in.ua/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/ukraine-flag.png"
+                        alt=""
+                      />
+                      Ukraine
+                    </td>
+                    <td>Astra.in.ua</td>
+                    <td>https://linuxmint.astra.in.ua/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/ukraine-flag.png"
+                        alt=""
+                      />
+                      Ukraine
+                    </td>
+                    <td>endpoint.ml</td>
+                    <td>https://repo.endpoint.ml/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/ukraine-flag.png"
+                        alt=""
+                      />
+                      Ukraine
+                    </td>
+                    <td>FastMirror</td>
+                    <td>https://fastmirror.pp.ua/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/ukraine-flag.png"
+                        alt=""
+                      />
+                      Ukraine
+                    </td>
+                    <td>IP-Connect LLC</td>
+                    <td>https://linuxmint-packages.ip-connect.vn.ua/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/ukraine-flag.png"
+                        alt=""
+                      />
+                      Ukraine
+                    </td>
+                    <td>Kvant2</td>
+                    <td>https://mirror.kvant.if.ua/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/united-kingdom-flag.png"
+                        alt=""
+                      />
+                      United Kingdom
+                    </td>
+                    <td>mirror.vinehost.net</td>
+                    <td>https://mirror.vinehost.net/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/united-kingdom-flag.png"
+                        alt=""
+                      />
+                      United Kingdom
+                    </td>
+                    <td>UK Dedicated Servers</td>
+                    <td>https://mirror.cov.ukservers.com/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/united-kingdom-flag.png"
+                        alt=""
+                      />
+                      United Kingdom
+                    </td>
+                    <td>UKFast</td>
+                    <td>
+                      https://mirrors.ukfast.co.uk/sites/linuxmint.com/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/united-kingdom-flag.png"
+                        alt=""
+                      />
+                      United Kingdom
+                    </td>
+                    <td>University of Kent UK Mirror Service</td>
+                    <td>
+                      https://www.mirrorservice.org/sites/packages.linuxmint.com/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/china-flag.png"
+                        alt=""
+                      />
+                      China
+                    </td>
+                    <td>Alibaba Cloud</td>
+                    <td>https://mirrors.aliyun.com/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/china-flag.png"
+                        alt=""
+                      />
+                      China
+                    </td>
+                    <td>Beijing Foreign Studies University</td>
+                    <td>https://mirrors.bfsu.edu.cn/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/china-flag.png"
+                        alt=""
+                      />
+                      China
+                    </td>
+                    <td>ChongQing University</td>
+                    <td>http://mirrors.cqu.edu.cn/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/china-flag.png"
+                        alt=""
+                      />
+                      China
+                    </td>
+                    <td>Nanjing University</td>
+                    <td>https://mirrors.nju.edu.cn/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/china-flag.png"
+                        alt=""
+                      />
+                      China
+                    </td>
+                    <td>
+                      Shanghai Jiao Tong University Linux User Group (SJTUG)
+                    </td>
+                    <td>https://mirror.sjtu.edu.cn/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/china-flag.png"
+                        alt=""
+                      />
+                      China
+                    </td>
+                    <td>TUNA</td>
+                    <td>https://mirrors.tuna.tsinghua.edu.cn/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/china-flag.png"
+                        alt=""
+                      />
+                      China
+                    </td>
+                    <td>
+                      University of Science and Technology of China Linux User
+                      Group
+                    </td>
+                    <td>https://mirrors.ustc.edu.cn/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/china-flag.png"
+                        alt=""
+                      />
+                      China
+                    </td>
+                    <td>Zhejiang University</td>
+                    <td>https://mirrors.zju.edu.cn/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/hong-kong-flag.png"
+                        alt=""
+                      />
+                      Hong Kong
+                    </td>
+                    <td>KoDDoS</td>
+                    <td>https://mirror-hk.koddos.net/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/india-flag.png"
+                        alt=""
+                      />
+                      India
+                    </td>
+                    <td>NxtGen DataCenter</td>
+                    <td>
+                      https://mirrors.nxtgen.com/linuxmint-mirror/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/india-flag.png"
+                        alt=""
+                      />
+                      India
+                    </td>
+                    <td>PicoNets-WebWerks</td>
+                    <td>
+                      https://mirrors.piconets.webwerks.in/linuxmint-mirror/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/india-flag.png"
+                        alt=""
+                      />
+                      India
+                    </td>
+                    <td>Shrirang Kahale</td>
+                    <td>https://mirror.albony.xyz/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/india-flag.png"
+                        alt=""
+                      />
+                      India
+                    </td>
+                    <td>vishnetwork.in</td>
+                    <td>https://mirrors.vishnetwork.in/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img class="h-[18px]" src="./images/id.png" alt="" />
+                      Indonesia
+                    </td>
+                    <td>DATAUTAMA-NET-ID</td>
+                    <td>http://kartolo.sby.datautama.net.id/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img class="h-[18px]" src="./images/id.png" alt="" />
+                      Indonesia
+                    </td>
+                    <td>PT Global Intermedia Nusantara</td>
+                    <td>https://mirror.gi.co.id/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img class="h-[18px]" src="./images/id.png" alt="" />
+                      Indonesia
+                    </td>
+                    <td>State Polytechnic of Banyuwangi</td>
+                    <td>http://mirror.poliwangi.ac.id/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/iran-flag.png"
+                        alt=""
+                      />
+                      Iran
+                    </td>
+                    <td>AminIDC</td>
+                    <td>http://mirror.aminidc.com/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/iran-flag.png"
+                        alt=""
+                      />
+                      Iran
+                    </td>
+                    <td>Bardia Moshiri</td>
+                    <td>https://mint.bardia.tech/repository/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/iran-flag.png"
+                        alt=""
+                      />
+                      Iran
+                    </td>
+                    <td>HostIran</td>
+                    <td>https://mirror.hostiran.ir/mint/repository/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/iran-flag.png"
+                        alt=""
+                      />
+                      Iran
+                    </td>
+                    <td>Isfahan University of Technology</td>
+                    <td>https://repo.iut.ac.ir/repo/Mint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/iran-flag.png"
+                        alt=""
+                      />
+                      Iran
+                    </td>
+                    <td>Rasanegar</td>
+                    <td>http://mirror.rasanegar.com/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img class="h-[18px]" src="./images/jp.png" alt="" />
+                      Japan
+                    </td>
+                    <td>JAIST</td>
+                    <td>
+                      http://ftp.jaist.ac.jp/pub/Linux/linuxmint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/kazakhstan-flag.png"
+                        alt=""
+                      />
+                      Kazakhstan
+                    </td>
+                    <td>Hoster.kz</td>
+                    <td>https://mirror.hoster.kz/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/kazakhstan-flag.png"
+                        alt=""
+                      />
+                      Kazakhstan
+                    </td>
+                    <td>PS Internet Company LLC</td>
+                    <td>https://mirror.ps.kz/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/singapore-flag.png"
+                        alt=""
+                      />
+                      Singapore
+                    </td>
+                    <td>0x.sg</td>
+                    <td>https://mirror.0x.sg/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/singapore-flag.png"
+                        alt=""
+                      />
+                      Singapore
+                    </td>
+                    <td>Freedif</td>
+                    <td>https://mirror.freedif.org/LinuxMint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/south-korea-flag.png"
+                        alt=""
+                      />
+                      South Korea
+                    </td>
+                    <td>Archive of Siwoo</td>
+                    <td>https://mirror.siwoo.org/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/south-korea-flag.png"
+                        alt=""
+                      />
+                      South Korea
+                    </td>
+                    <td>KAIST</td>
+                    <td>https://ftp.kaist.ac.kr/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img class="h-[18px]" src="./images/tw.png" alt="" />
+                      Taiwan
+                    </td>
+                    <td>NCHC</td>
+                    <td>http://free.nchc.org.tw/linuxmint/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img class="h-[18px]" src="./images/tw.png" alt="" />
+                      Taiwan
+                    </td>
+                    <td>TamKang University</td>
+                    <td>http://ftp.tku.edu.tw/Linux/LinuxMint/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="/images/thailand-flag.png"
+                        alt=""
+                      />
+                      Thailand
+                    </td>
+                    <td>Kasetsart University</td>
+                    <td>https://mirror1.ku.ac.th/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/thailand-flag.png"
+                        alt=""
+                      />
+                      Thailand
+                    </td>
+                    <td>Khon Kaen University</td>
+                    <td>https://mirror.kku.ac.th/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img class="h-[18px]" src="./images/uz.png" alt="" />
+                      Uzbekistan
+                    </td>
+                    <td>Uzinfocom</td>
+                    <td>http://mirror.dc.uz/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/australia-flag.png"
+                        alt=""
+                      />
+                      Australia
+                    </td>
+                    <td>AARNet</td>
+                    <td>
+                      https://mirror.aarnet.edu.au/pub/linuxmint-packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/australia-flag.png"
+                        alt=""
+                      />
+                      Australia
+                    </td>
+                    <td>Internode</td>
+                    <td>
+                      http://mirror.internode.on.net/pub/linuxmint-packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img class="h-[18px]" src="./images/nc.png" alt="" />
+                      New Caledonia
+                    </td>
+                    <td>OFFRATEL LAGOON</td>
+                    <td>http://mirror.lagoon.nc/pub/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/new-zealand-flag.png"
+                        alt=""
+                      />
+                      New Zealand
+                    </td>
+                    <td>University of Canterbury</td>
+                    <td>
+                      http://ucmirror.canterbury.ac.nz/linux/mint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/argentina-flag.png"
+                        alt=""
+                      />
+                      Argentina
+                    </td>
+                    <td>Sysarmy</td>
+                    <td>https://mirrors.eze.sysarmy.com/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/brazil-flag.png"
+                        alt=""
+                      />
+                      Brazil
+                    </td>
+                    <td>C3SL</td>
+                    <td>https://mint-packages.c3sl.ufpr.br/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/brazil-flag.png"
+                        alt=""
+                      />
+                      Brazil
+                    </td>
+                    <td>Federal University of Sao Carlos</td>
+                    <td>https://mirror.ufscar.br/mint-archive/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/brazil-flag.png"
+                        alt=""
+                      />
+                      Brazil
+                    </td>
+                    <td>ITS Telecomunicacoes</td>
+                    <td>https://mint.itsbrasil.net/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/brazil-flag.png"
+                        alt=""
+                      />
+                      Brazil
+                    </td>
+                    <td>Universidade Federal do Amazonas</td>
+                    <td>https://mirror.ufam.edu.br/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/chile-flag.png"
+                        alt=""
+                      />
+                      Chile
+                    </td>
+                    <td>NetActuate</td>
+                    <td>
+                      https://mirror1.cl.netactuate.com/linuxmint/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/chile-flag.png"
+                        alt=""
+                      />
+                      Chile
+                    </td>
+                    <td>Universidad de La Frontera</td>
+                    <td>https://mirror.ufro.cl/linuxmint/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/ecuador-flag.png"
+                        alt=""
+                      />
+                      Ecuador
+                    </td>
+                    <td>CEDIA</td>
+                    <td>https://mirror.cedia.org.ec/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/kenya-flag.png"
+                        alt=""
+                      />
+                      Kenya
+                    </td>
+                    <td>Liquid Telecom</td>
+                    <td>
+                      https://linuxmint.mirror.liquidtelecom.com/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/mauritius-flag.png"
+                        alt=""
+                      />
+                      Mauritius
+                    </td>
+
+                    <td>cloud.mu</td>
+                    <td>https://linuxmint-mirror.cloud.mu/packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/south-africa-flag.png"
+                        alt=""
+                      />
+                      South Africa
+                    </td>
+                    <td>Dimension Data</td>
+                    <td>
+                      http://mirror.is.co.za/mirrors/linuxmint.com/packages/
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/south-africa-flag.png"
+                        alt=""
+                      />
+                      South Africa
+                    </td>
+                    <td>University of Free State</td>
+                    <td>https://mirror.ufs.ac.za/linuxmint-packages/</td>
+                  </tr>
+                  <tr>
+                    <td class="flex items-center gap-[7px]">
+                      <img
+                        class="h-[18px]"
+                        src="./images/south-africa-flag.png"
+                        alt=""
+                      />
+                      South Africa
+                    </td>
+                    <td>WIRUlink</td>
+                    <td>http://mirror.wiru.co.za/linuxmint-packages/</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- partners-section -->
+
+    <section class="bg-[#343a40]">
+      <div class="md:container">
+        <div class="partners-res row justify-center items-center py-4">
+          <a href="https://play.google.com/store/apps/dev?id=9070296388022589266">
+            <img
+              class="w-[150px] m-[30px]"
+              src="./images/download-sponser-1.svg"
+              alt=""
+            />
+          </a>
+          <a href="https://sucuri.net/">
+            <img
+              class="w-[150px] m-[30px]"
+              src="./images/download-sponser-2.svg"
+              alt=""
+            />
+          </a>
+          <a href="https://www.bgasoft.com/">
+            <img
+              class="w-[150px] m-[30px]"
+              src="./images/download-sponser-3.png"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================
+      footer  -->
+    <footer class="bg-[#343a40] text-[#d5d5d5] pt-[4.5rem]">
+      <div class="footer-content">
+        <div class="xl:container">
+          <div class="row footer-wrap xl:flex-nowrap footer-res-1">
+            <!-- Footer widget 1 -->
+            <div class="footer-para-1 xl:w-[300px] xl:h-[212px]">
+              <div class="">
+                <div class="xl:w-[270px] xl:h-[162px] mx-auto">
+                  <a class="logo-center" href="/">
+                    <img
+                      class="w-[207px]"
+                      src="./images/footer-logo.svg"
+                      alt=""
+                    />
+                  </a>
+                  <p
+                    class="par-foot-1 text-[0.9375rem] font-normal leading-[1.6] xl:w-[270px] mt-4"
+                  >
+                    Thanks to your donations and advertising Linux Mint is
+                    completely free of charge. We hope you'll enjoy using it as
+                    much as we enjoy working on it.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="footer-para-2 xl:w-[300px] xl:h-[212px]">
+              <p
+                class="par-foot-2 text-[0.9375rem] font-normal leading-[1.6] xl:w-[270px] mx-auto"
+              >
+                Almost all the packages we distribute are open-source. You can
+                find their source code on
+                <a
+                  class="blog-date hover:text-[#398a44]"
+                  target="_blank"
+                  href="https://packages.ubuntu.com/"
+                  >https://packages.ubuntu.com</a
+                >,
+                <a class="blog-date hover:text-[#398a44]" href="#"
+                  >http://packages.linuxmint.com</a
+                >
+                or
+                <a
+                  class="blog-date hover:text-[#398a44]"
+                  target="_blank"
+                  href="https://github.com/linuxmint"
+                  >https://github.com/linuxmint</a
+                >. If you can't find what you're looking for contact us.
+              </p>
+            </div>
+            <div class="footer-col w-[200px] xl:h-[212px]">
+              <div class="ul-width xl:w-[170px] xl:h-[126px] mx-auto">
+                <h6 class="text-[1rem] font-medium">Quick Links</h6>
+                <ul class="flex flex-col flex-wrap">
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="download.html"
+                      >Download</a
+                    >
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="#"
+                      >Donate</a
+                    >
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="get-involved.html"
+                      >Get Involved</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-col w-[200px] xl:h-[212px]">
+              <div class="ul-width xl:w-[170px] h-[126px] mx-auto">
+                <h6 class="text-[1rem] font-medium">Info</h6>
+                <ul class="flex flex-col flex-wrap">
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="about.html">About</a>
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="faq.html">FAQ</a>
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="privacy&cookies.html"
+                      >Privacy & Cookies</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-col w-[200px] xl:h-[212px]">
+              <div class="ul-width xl:w-[170px] h-[126px] mx-auto">
+                <h6 class="text-[1rem] font-medium">Support</h6>
+                <ul class="flex flex-col flex-wrap">
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="#"
+                      >Installation Guide</a
+                    >
+                  </li>
+                  <li class="text-[0.9375rem] font-normal leading-[1.6] mt-2">
+                    <a class="blog-date hover:text-[#68c174]" href="#"
+                      >User Guide</a
+                    >
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="#"
+                      >Forums</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider h-[1px] w-[100%] mt-[19px]"></div>
+      <!-- footer copyright -->
+      <div class="copy-footer pt-8 pb-8 sm:px-5">
+        <div class="xl:container">
+          <div>
+            <div class="text-[0.9375rem] font-normal leading-[1.6]">
+              <p>
+                Linux Mint is copyrighted since 2006 and trademarked through the
+                Linux Mark Institute. All rights reserved.
+                <br />
+                Linux® is the registered trademark of Linus Torvalds in the U.S.
+                and other countries.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div>
+      <a class="back-top btn-grad btn-show" href="#"
+        ><i class="fa-solid fa-angle-up"></i
+      ></a>
+    </div>
+    <!-- =======================
+      footer  -->
+  </body>
+</html>

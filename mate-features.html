@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      New Features in Linux Mint 21.2 'Victoria' MATE Edition - Linux Mint
+    </title>
+    <link rel="website icon" type="png" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/7c051f6c7f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- =======================
+	header Start-->
+    <header>
+      <div class="header bg-grad">
+        <div
+          class="navbar-top h-[px] lg:flex lg:items-center lg:pt-[3px] lg:pb-1 lg:top-nav-border hidden"
+        >
+          <div class="container">
+            <div class="flex justify-between items-center h-8">
+              <!-- navbar top Left-->
+              <div class="flex items-center">
+                <!-- Language -->
+                <!-- <div class="dropdown">
+                              <a class="dropdown-toggle" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img class="dropdown-item-icon" src="web/img/flags/gb.png" alt=""> English </a>
+                              <div class="dropdown-menu mt-2 shadow" aria-labelledby="dropdownLanguage">
+                                  <span class="dropdown-item-text">Select language</span>
+                                  <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"><img class="dropdown-item-icon" src="web/img/flags/es.png" alt=""> Español</a>
+                                <a class="dropdown-item" href="#"><img class="dropdown-item-icon" src="web/img/flags/fr.png" alt=""> Français</a>
+                                <a class="dropdown-item" href="#"><img class="dropdown-item-icon" src="web/img/flags/de.png" alt=""> Deutsch</a>
+                              </div>
+                            </div> -->
+              </div>
+              <!-- navbar top Right-->
+              <div class="flex items-center">
+                <!-- top link -->
+                <!-- top social -->
+                <ul class="social-icons flex gap-5 text-white">
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-rss" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-hashtag" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fab fa-mastodon" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Logo Nav Start -->
+        <nav
+        class="lg:container flex flex-wrap justify-between items-center lg:my-5 lg:py-3 xl:px-4 pt-3 first-nav"
+      >
+        <a class="logo-1" href="#">
+          <img class="h-[48.2px]" src="./images/logo-mono.svg" alt="" />
+        </a>
+        <label for="toggler" class="linebar"
+          ><i class="fa fa-bars text-white text-[30px]"></i
+        ></label>
+        <input type="checkbox" id="toggler" />
+        <div class="menu">
+          <ul class="ul flex items-center">
+            <li class="lg:white nav-link home text-[#495057]">
+              <a href="#">Home</a>
+            </li>
+            <li
+              class="lg:white nav-link dropdown h-[57px] lg:mt-[35px] cursor-pointer transition-color text-[#8f9397]"
+            >
+              <input type="checkbox" id="menu-click" />
+              <label
+                for="menu-click"
+                class="items-center lg:gap-1 download-gap cursor-pointer"
+              >
+                Download
+                <i class="fas fa-angle-down text-[0.6rem] pt-[2px]"></i>
+              </label>
+              <div class="dropdown-menu">
+                <div
+                  class="flex flex-wrap lg:flex-nowrap bg-[#fff] pt-4 pb-4"
+                >
+                  <ul class="pr-12">
+                    <li
+                      class="font-semibold font-family text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                    >
+                      Latest version
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a class="flex" href="download.html"
+                        >Linux Mint 21.2
+                        <div
+                          class="text-[#fff] bg-[#28a745] ml-2 py-[0.25em] px-[0.4em] text-[75%] font-bold rounded-[0.25rem] text-center"
+                        >
+                          Recommended
+                        </div></a
+                      >
+                    </li>
+                  </ul>
+                  <ul class="pr-12">
+                    <li
+                      class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                    >
+                      Other versions
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a href="lmde-6.html">LMDE 6</a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a href="all-versions.html">All versions</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="bg-grad lg:flex items-center p-6 checkout">
+                  <div class="mr-6">
+                    <h4 class="text-[#fbfbfb] text-[1.39rem] font-semibold">
+                      Checkout the doc!
+                    </h4>
+                    <small class="font-semibold white-i">
+                      Follow the guide to learn how to download and install
+                      Linux Mint.
+                    </small>
+                  </div>
+                  <a class="white hero-btn-2 whitespace-nowrap" href="#"
+                    >Installation Guide</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li
+              class="lg:white nav-link dropdown h-[57px] lg:mt-[35px] cursor-pointer transition-color text-[#8f9397]"
+            >
+              <input type="checkbox" id="menu-click2" />
+              <label
+                for="menu-click2"
+                class="items-center lg:gap-1 download-gap-2 cursor-pointer"
+              >
+                Project
+                <i class="fas fa-angle-down text-[0.6rem] pt-[2px]"></i>
+              </label>
+              <div class="dropdown-menu">
+                <div
+                  class="flex flex-wrap lg:flex-nowrap bg-[#fff] pt-4 pb-4"
+                >
+                  <ul class="pr-12">
+                    <li
+                      class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                    >
+                      Funding
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a href="#">Donors</a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a href="sponsors.html">Sponsors</a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a href="partners.html">Partners</a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a href="store.html">Store</a>
+                    </li>
+                  </ul>
+                  <ul class="pr-12">
+                    <li
+                      class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                    >
+                      Contributing
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a href="get-involved.html">Get Involved</a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a href="mirrors.html">Mirrors</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="bg-grad lg:flex items-center p-6 checkout">
+                  <div>
+                    <small class="font-semibold white-i">
+                      Every little helps, don't hesitate to get involved.
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="lg:white nav-link dropdown-a h-[57px] lg:mt-[35px] cursor-pointer transition-color text-[#8f9397]"
+            >
+              <input type="checkbox" id="menu-click3" />
+              <label
+                for="menu-click3"
+                class="items-center lg:gap-1 download-gap-3 cursor-pointer"
+              >
+                About <i class="fas fa-angle-down text-[0.6rem] pt-[2px]"></i>
+              </label>
+              <div class="dropdown-menu">
+                <div class="flex flex-wrap lg:flex-nowrap bg-[#fff] pt-4">
+                  <ul class="pr-12">
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a href="about.html">About Linux Mint</a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a href="faq.html">FAQ</a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a href="documentation.html">Documentation</a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a href="screenshots.html">Screenshots</a>
+                    </li>
+                  </ul>
+                  <ul class="pr-12">
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a href="privacy&cookies.html">Privacy & Cookies</a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a href="teams.html">Team</a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a href="contactus.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li
+              class="lg:white nav-link dropdown-a h-[57px] lg:mt-[35px] cursor-pointer transition-color text-[#8f9397]"
+            >
+              <input type="checkbox" id="menu-click4" />
+              <label
+                for="menu-click4"
+                class="items-center lg:gap-1 download-gap-4 cursor-pointer"
+              >
+                Links <i class="fas fa-angle-down text-[0.6rem] pt-[2px]"></i>
+              </label>
+              <div class="dropdown-menu">
+                <div
+                  class="flex flex-wrap lg:flex-nowrap bg-[#fff] pt-4 pb-4"
+                >
+                  <ul class="pr-12">
+                    <li
+                      class="font-semibold font-family text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                    >
+                      Official
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a
+                        class="flex items-center"
+                        href="index.html"
+                        target="_blank"
+                        ><i class="fas fa-igloo pr-[0.3rem]"></i> Website
+                        <div
+                          class="text-[#fff] bg-[#28a745] ml-2 py-[0.25em] px-[0.4em] text-[75%] font-bold rounded-[0.25rem] text-center"
+                        >
+                          Here
+                        </div></a
+                      >
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a class="flex items-center" href="#"
+                        ><i class="fas fa-blog pr-[0.3rem]"></i> Blog
+                      </a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a class="flex items-center" href="#"
+                        ><i class="fas fa-comments pr-[0.3rem]"></i> Forums
+                      </a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer checkout"
+                    >
+                      <a class="flex items-center" href="#"
+                        ><i class="fas fa-users pr-[0.3rem]"></i> Community
+                        website
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="pr-12">
+                    <li
+                      class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                    >
+                      Social
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a
+                        class="flex items-center"
+                        href="https://www.github.com/linuxmint"
+                        ><i class="fab fa-github pr-[0.3rem]"></i> Github
+                      </a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a
+                        class="flex items-center"
+                        href="https://www.facebook.com/pages/Linux-Mint/185238108180410"
+                        ><i class="fab fa-facebook pr-[0.3rem]"></i> Facebook
+                      </a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a
+                        class="flex items-center"
+                        href="https://twitter.com/linux_mint"
+                        ><i class="fab fa-twitter pr-[0.3rem]"></i> Twitter
+                      </a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer checkout"
+                    >
+                      <a
+                        class="flex items-center"
+                        href="https://widget00.mibbit.com/?settings=afafcb2fef3d61ee26d44fe55394b54b&server=irc.spotchat.org&channel=%23linuxmint-help&autoConnect=1"
+                        ><i class="fas fa-hashtag pr-[0.3rem]"></i> IRC Chat
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="pr-12">
+                    <li
+                      class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                    >
+                      Community
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a
+                        class="flex items-center"
+                        href="https://www.reddit.com/r/linuxmint/"
+                        ><i class="fab fa-reddit pr-[0.3rem]"></i> Reddit
+                      </a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a
+                        class="flex items-center"
+                        href="https://discord.gg/mint"
+                        ><i class="fab fa-discord pr-[0.3rem]"></i> Discord
+                      </a>
+                    </li>
+                    <li
+                      class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                    >
+                      <a class="flex items-center" href="#"
+                        ><i class="fas fa-globe pr-[0.3rem]"></i> Local
+                        communities
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="bg-grad lg:flex items-center p-6 checkout">
+                  <div class="mr-6">
+                    <small class="font-semibold white-i">
+                      Websites in the right column are maintained by the
+                      community.
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <div class="xl:nav-button donate-btn b-radius donate-buttton">
+              <button>Donate</button>
+            </div>
+          </ul>
+        </div>
+      </nav>
+        <!-- hero-section-start -->
+        <div class="hero-section">
+          <div class="md:container about-h1">
+            <div>
+              <h1 class="text-[3.5rem] white font-semibold pb-[3px]">
+                New Features
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- =======================
+      header end-->
+
+    <!-- hero-below-section -->
+
+    <section class="section bg-[#f0f1f3] relative">
+      <div class="md:container feature-c">
+        <div class="xl:w-[999px] h-[491px] mb-6">
+          <h2 class="text-[#68c174] text-[30px] font-medium">
+            Linux Mint 21.2 MATE
+          </h2>
+          <p class="para mt-[22px] mb-[21px]">
+            Linux Mint 21.2 is a long term support release which will be
+            supported until 2027. It comes with updated software and brings
+            refinements and many new features to make your desktop experience
+            more comfortable.
+          </p>
+          <div class="flex flex-col items-center">
+            <div class="md:w-[526px]">
+              <a
+                href="https://www.linuxmint.com/pictures/screenshots/victoria/cinnamon.png"
+              >
+                <img src="./images/thumb_mate.png" alt="" />
+              </a>
+            </div>
+
+            <i class="not-italic crypto-font text-[#495057]">
+              <small>
+                <b>Linux Mint 21.2 "Victoria" MATE Edition</b>
+              </small>
+            </i>
+          </div>
+        </div>
+      </div>
+      <figure class="absolute w-[100%] bottom-0 mb-[-1rem]">
+        <svg
+          version="1.1"
+          id="wave-2"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 1920 43.4"
+          style="enable-background: new 0 0 1920 43.4"
+          xml:space="preserve"
+        >
+          <path
+            id="wave-2-path_"
+            class="fill-white"
+            d="M0,23.3c0,0,405.1-43.5,697.6,0c316.5,1.5,108.9-2.6,480.4-14.1c0,0,139-12.2,458.7,14.3 c0,0,67.8,19.2,283.3-22.7v35.1H0V23.3z"
+          ></path>
+        </svg>
+      </figure>
+    </section>
+
+    <!-- skill section -->
+    <section class="py-12">
+      <div class="md:container feature-c">
+        <div class="xl:w-[999px]">
+          <h4 class="text-[22.5px]">Slick Greeter</h4>
+          <p class="para mt-[22px] mb-[21px]">
+            Slick Greeter, which is in charge of the login screen, was given
+            support for multiple keyboard layouts. The indicator located on the
+            top-right corner of the screen opens a menu which lets you switch
+            between layouts.
+          </p>
+          <div class="bold-text flex flex-col items-center">
+            <div class="w-[243px]">
+              <a
+                href="https://linuxmint.com/pictures/screenshots/victoria/slick1.png"
+              >
+                <img
+                  class="mb-[5px] rounded-[3px]"
+                  src="./images/slick1.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            Support for multiple keyboard layouts
+          </div>
+          <p class="para mt-[21px]">
+            System layouts defined in /etc/default/keyboard are listed first for
+            easy access. Below that a sub-menu lists all supported layouts.
+          </p>
+          <p class="para mt-[21px]">
+            Touchpad support was also improved. Tap-to-click is detected and
+            enabled automatically in the login screen.
+          </p>
+          <p class="para my-[21px]">
+            The layout used for Onboard, the on-screen keyboard is configurable.
+          </p>
+          <div class="bold-text mb-[20px] flex flex-col items-center">
+            <div class="max-w-[526px]">
+              <a href="https://linuxmint.com/pictures/screenshots/victoria/slick2.png">
+                <img
+                  class="mb-[5px] rounded-[3px]"
+                  src="./images/slick2.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            Configurable layout for the on-screen keyboard
+          </div>
+          <p class="para">
+            The keyboard navigation was improved. The arrow keys can be used to
+            edit the password which is being typed. A revealer icon appears when
+            the password is clicked or edited. This revealer can be used to
+            toggle the visibility of the password.
+          </p>
+          <div class="bold-text mt-[21px] mb-[20px] flex flex-col items-center">
+            <div class="md:w-[363px]">
+              <a
+                href="https://linuxmint.com/pictures/screenshots/victoria/slick3.png"
+              >
+                <img
+                  class="mb-[5px] rounded-[3px]"
+                  src="./images/slick3.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            Password revealer in the login screen
+          </div>
+          <p class="para pb-6">
+            Among other small improvements Slick-greeter also received support
+            for Wayland sessions, LXQT/Pademelon badges and a scrollable session
+            list.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- software-section -->
+
+    <section class="white-i bg-[#343a40] py-12">
+      <div class="md:container feature-c">
+        <div class="xl:w-[999px]">
+          <h4 class="text-[#68c174] text-[22.5px]">Software Manager</h4>
+          <p class="para white-i mt-[22px] mb-[21px]">
+            The Software Manager was given a UI refresh.
+          </p>
+          <div class="bold-text flex flex-col items-center">
+            <div class="max-w-[526px]">
+              <a
+                href="https://linuxmint.com/pictures/screenshots/victoria/mintinstall.png"
+              >
+                <img
+                  class="mb-[20px] rounded-[3px]"
+                  src="./images/mintinstall.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            Better apps and UI refresh in the Software Manager
+          </div>
+          <p class="para white-i mt-[21px]">
+            The list of featured applications was updated and now includes
+            Flatpaks.
+          </p>
+          <p class="para white-i mt-[20px] pb-6">
+            The scoring system was improved to give more visibility to new
+            trending apps.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- pix section -->
+
+    <section class="py-12">
+      <div class="md:container feature-c">
+        <div class="xl:w-[999px]">
+          <h4 class="text-[22.5px]">Pix</h4>
+          <p class="para mt-[22px] mb-[21px]">
+            Pix, which was originally based on gThumb 3.2.8, was rebased on
+            gThumb 3.12.2.
+          </p>
+          <p class="para mb-[20px]">
+            The new gThumb UI was adopted. It uses headerbars and buttons
+            instead of toolbars and menubars. It’s slightly less discoverable
+            for newcomers but it looks very clean and remains quite intuitive.
+          </p>
+          <div class="bold-text flex flex-col items-center mb-[20px]">
+            <div class="max-w-[526px]">
+              <a
+                href="https://linuxmint.com/pictures/screenshots/victoria/pix.png"
+              >
+                <img
+                  class="mb-[5px] rounded-[3px]"
+                  src="./images/pix.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            Pix 3.0
+          </div>
+          <p class="para mb-[21px]">
+            This rebase brings 168 new features or user visible changes, most
+            notably:
+          </p>
+          <ul
+            class="list-disc text-[0.9375rem] flex flex-col gap-[2px] mb-[21px] ml-[18px] text-[#495057]"
+          >
+            <li>Better performance, faster image loading, faster navigation</li>
+            <li>Support for AVIF/HEIF and JXL formats</li>
+            <li>Improved support for GIF, RAW and TIFF images</li>
+            <li>Improved zoom controls</li>
+            <li>
+              Support for larger thumbnail sizes: 512, 768 and 1024 pixels.
+            </li>
+            <li>Allow to set shortcuts to activate filters.</li>
+            <li>Template editor to edit text values with special codes:</li>
+            <li>
+              script commands, rename templates, print header and footer, etc.
+            </li>
+            <li>Support for color profiles</li>
+            <li>Improved video playback</li>
+            <li>New image tools: special effects; curves.</li>
+            <li>Color picker</li>
+            <li>Search in multiple folders</li>
+            <li>Search in multiple folders</li>
+            <li>Improved filters</li>
+            <li>Meson build system</li>
+          </ul>
+          <p class="para">
+            The changes which were specific to Pix were cherry picked and
+            re-applied. These include:
+          </p>
+          <ul
+            class="list-disc text-[0.9375rem] flex flex-col gap-[2px] mt-[21px] ml-[18px] text-[#495057]"
+          >
+            <li>A more intuitive default configuration</li>
+            <li>Support for Cinnamon, MATE, Xfce</li>
+            <li>Configurable dark-mode</li>
+            <li>Support for Xapps favorites</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- looks & feel section -->
+
+    <section class="bg-[#f0f1f3] py-12">
+      <div class="md:container feature-c">
+        <div class="xl:w-[999px]">
+          <h4 class="text-[22.5px] font-semibold">Look and Feel</h4>
+          <h6 class="text-[0.9375rem] font-semibold mt-[22px] mb-[9px]">
+            Folder icons
+          </h6>
+          <p class="para mb-[21px]">
+            Folder icons no longer feature a stripe. Instead, each color
+            received beautiful two-tones icons.
+          </p>
+          <p class="para mb-[21px]">Here are a few examples:</p>
+          <div class="bold-text flex flex-col items-center mb-[20px]">
+            <div class="max-w-[526px]">
+              <a
+                href="https://linuxmint.com/pictures/screenshots/victoria/aqua.png"
+              >
+                <img
+                  class="mb-[20px] rounded-[3px] pix-shadow"
+                  src="./images/aqua.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            Aqua folders
+          </div>
+          <div class="bold-text flex flex-col items-center mb-[20px]">
+            <div class="max-w-[526px]">
+              <a
+                href="https://linuxmint.com/pictures/screenshots/victoria/pink.png"
+              >
+                <img
+                  class="mb-[20px] rounded-[3px] pix-shadow"
+                  src="./images/pink.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            Pink folders
+          </div>
+          <p class="para mb-[21px]">
+            New color variants were introduced for popular colors.
+          </p>
+          <p class="para mb-[21px]">
+            This one is Yaru (from Papirus, inspired by the Yaru theme from
+            Ubuntu):
+          </p>
+          <div class="bold-text flex flex-col items-center mb-[20px]">
+            <div class="max-w-[526px]">
+              <a
+                href="https://linuxmint.com/pictures/screenshots/victoria/yaru.png"
+              >
+                <img
+                  class="mb-[20px] rounded-[3px] pix-shadow"
+                  src="./images/yaru.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            Yaru folders with Orange theme
+          </div>
+          <p class="para mb-[21px]">
+            And from blue to green we’ve got 7 beautiful variants. Here’s Teal
+            using Cyan icons:
+          </p>
+          <div class="bold-text flex flex-col items-center mb-[20px]">
+            <div class="max-w-[526px]">
+              <a
+                href="https://linuxmint.com/pictures/screenshots/victoria/cyan.png"
+              >
+                <img
+                  class="mb-[20px] rounded-[3px] pix-shadow"
+                  src="./images/cyan.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            Cyan folders with Teal theme
+          </div>
+          <p class="para mb-[21px]">
+            Brown and Sand were shades of the same color (same hue) so brown was
+            removed.
+          </p>
+          <h6 class="text-[0.9375rem] font-semibold mb-[9px]">Tooltips</h6>
+          <p class="para mb-[21px]">
+            Tooltips looked slightly different depending on where they came from
+            (GTK2, GTK3, Cinnamon). They also featured a grey border which
+            didn’t look clean around their yellow background.
+          </p>
+          <p class="para mb-[21px]">
+            Consistency issues across the various GTK versions and Cinnamon were
+            fixed. We took inspiration from Adwaita and made our tooltips
+            bigger, rounder and with larger margins.
+          </p>
+          <p class="para mb-[21px]">
+            Tooltips are transient elements which highlight an event or a
+            feature. They should be beautiful and noticeable.
+          </p>
+          <div class="bold-text flex flex-col items-center mb-[20px]">
+            <div class="w-[255px]">
+              <a
+                href="https://linuxmint.com/pictures/screenshots/victoria/tooltips.png"
+              >
+                <img
+                  class="mb-[5px] rounded-[3px]"
+                  src="./images/tooltips.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            Accentuated tooltips
+          </div>
+          <p class="para mb-[21px]">
+            In Cinnamon we also added a bit of space between the applets and
+            their tooltips so they wouldn’t be stuck to the panel.
+          </p>
+          <h6 class="text-[0.9375rem] font-semibold mb-[9px]">Titlebars</h6>
+          <p class="para mb-[21px]">Titlebar buttons were realigned.</p>
+          <div class="bold-text flex flex-col items-center mb-[20px]">
+            <div class="w-[124px]">
+              <a
+                href="https://linuxmint.com/pictures/screenshots/victoria/titlebar.png"
+              >
+                <img
+                  class="mb-[5px] rounded-[3px]"
+                  src="./images/titlebar.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            Realigned titlebar buttons
+          </div>
+          <h6 class="text-[0.9375rem] font-semibold mb-[9px]">Mono icons</h6>
+          <p class="para mb-[21px]">
+            Here's a "Copy" menu item which uses a symbolic icon:
+          </p>
+          <div class="bold-text flex flex-col items-center mb-[20px]">
+            <div class="w-[272px]">
+              <a
+                href="https://linuxmint.com/pictures/screenshots/victoria/nemo.png"
+              >
+                <img
+                  class="mb-[5px] rounded-[3px]"
+                  src="./images/nemo.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            Symbolic icons adapt to their background
+          </div>
+          <p class="para mb-[21px]">
+            The icon changes color from black to white when the menu item is
+            hovered. It always matches the label.
+          </p>
+          <p class="para mb-[21px]">
+            Here's the same menu item, using a mono icon:
+          </p>
+          <div class="bold-text flex flex-col items-center mb-[20px]">
+            <div class="w-[298px]">
+              <a
+                href="https://linuxmint.com/pictures/screenshots/victoria/caja.png"
+              >
+                <img
+                  class="mb-[5px] rounded-[3px]"
+                  src="./images/caja.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            Traditional icons do not
+          </div>
+          <p class="para mb-[21px]">
+            This icon is not symbolic. This is a monochrome icon which is
+            rendered just the way it looks. It doesn't change color dynamically,
+            and it doesn't match the label.
+          </p>
+          <p class="para mb-[21px]">
+            To prevent this kind of issue all the applications and projects we
+            develop use symbolic icons. This ensures they look fine with any
+            themes, whether the themes are dark, light or light and dark.
+          </p>
+          <p class="para mb-[21px]">
+            Until now Mint-Y provided monochrome icons. This allowed
+            applications which still don't use symbolic icons to get a modern
+            look, with monochrome icons. This was done at a cost though. First,
+            it only worked with light themes, so each color variant had to be
+            duplicated, to provide both a light and a dark icon theme. Second,
+            no matter what, this couldn’t work with themes which mixed dark and
+            light elements (Mint-Y-Legacy-Darker or Arc-Darker for instance).
+          </p>
+          <p class="para mb-[21px]">
+            This is Transmission, one of the few applications which still
+            doesn't use symbolic icons. It looked nice because Mint-Y provided
+            monochrome icons which look similar to its symbolic icons.. but this
+            application features the same theme compatibility issues as above.
+          </p>
+          <div class="bold-text flex flex-col items-center mb-[20px]">
+            <div class="w-[313px]">
+              <a
+                href="https://linuxmint.com/pictures/screenshots/victoria/transmission2.png"
+              >
+                <img
+                  class="mb-[5px] rounded-[3px]"
+                  src="./images/transmission2.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            Transmission with mono icons
+          </div>
+          <p class="para mb-[21px]">
+            In Linux Mint 21.2 all monochrome icons and all Dark icon themes are
+            removed. In applications which still use them, fullcolor icons now
+            default to Adwaita.
+          </p>
+          <div class="bold-text flex flex-col items-center mb-[20px]">
+            <div class="w-[309px]">
+              <a
+                href="https://linuxmint.com/pictures/screenshots/victoria/transmission.png"
+              >
+                <img
+                  class="mb-[5px] rounded-[3px]"
+                  src="./images/transmission.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            Transmisssion with Adwaita icons
+          </div>
+          <p class="para pb-6">
+            Whether or not they look better is subjective, but at least this
+            makes the applications compatible with any control themes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- desktop section -->
+
+    <section class="py-12">
+      <div class="md:container feature-c">
+        <div class="xl:w-[999px]">
+          <h4 class="text-[22.5px] font-semibold">XDG Desktop Portal</h4>
+          <p class="para mt-[22px] mb-[21px]">
+            XDG Desktop Portal support was added to XApp for Cinnamon, MATE and
+            Xfce.
+          </p>
+          <p class="para mb-[21px]">
+            This provides better compatibility between desktop environments and
+            non-native applications such as flatpaks or GNOME apps
+            (libhandy/libadwaita apps).
+          </p>
+          <p class="para mb-[21px]">
+            Among other things this makes it possible for these apps to take
+            screenshots or to support dark-mode.
+          </p>
+          <p class="para mb-[21px]">
+            As a result, Dark mode becomes a global setting which is set in
+            cinnamon-settings (for Cinnamon) or in mintdesktop (for MATE and
+            Xfce).
+          </p>
+          <p class="para mb-[21px]">
+            The dark mode setting affects applications which support it and lets
+            you choose between three options:
+          </p>
+          <ul
+            class="list-disc text-[#495057] text-[0.9375rem] flex flex-col gap-[2px] ml-[18px] mb-[21px]"
+          >
+            <li>Prefer light</li>
+            <li>Prefer dark</li>
+            <li>Let the applications decide</li>
+          </ul>
+          <p class="para pb-6">
+            Among the many apps which support it, some are light by default
+            (Firefox, Xed, Thingy, Xreader) and some are dark by default
+            (Xviewer, Pix). The setting is also supported by many Flatpaks and
+            GNOME/LibAdwaita applications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- warpinator section -->
+
+    <section class="py-12 bg-[#f0f1f3]">
+      <div class="md:container feature-c">
+        <div class="xl:w-[999px]">
+          <h4 class="text-[22.5px] font-semibold mb-[22px]">Warpinator</h4>
+          <p class="para mb-[21px]">
+            Warpinator is designed to let people see each other and share files
+            on the local network as easily as possible and without setup.
+            Although access to the local network itself should be
+            monitored/restricted in the first place, once you’re connected to
+            it, you can see and interact with other Warpinator instances.
+          </p>
+          <p class="para mb-[21px]">
+            The SUSE security team recently performed a review of the codebase
+            and highlighted some concerns. Discussions followed and decisions
+            were taken to harden the security in Warpinator.
+          </p>
+          <p class="para mb-[21px]">
+            Security bugs (CVE-2022-42725) were fixed to prevent files
+            potentially being written outside of the download directory in the
+            case of a malicious remote copy of Warpinator.
+          </p>
+          <p class="para mb-[21px]">
+            Setting a group code became a requirement for the application to
+            remain open indefinitely or to be started automatically after login.
+            Only computers which share the same group code see each other and
+            their communication is encrypted. This was done to prevent a
+            malicious copy of Warpinator from pretending to be someone else on
+            the network and initiate transfers, especially in cases where the
+            target’s instance is set to automatically accept incoming requests.
+          </p>
+          <p class="para mb-[21px]">
+            People who want to casually share files now and then would
+            communicate first, agree on timing and what’s being shared. They’d
+            launch their instances around the same time and expect what they
+            agreed on. In this scenario the lack of setup requirement is key and
+            there is no significant need for a group code.
+          </p>
+          <p class="para mb-[21px]">
+            In preparation for future potential bugs or security issues, changes
+            were implemented to completely isolate Warpinator from the
+            filesystem and make it technically unable to write anywhere other
+            than in the incoming folder.
+          </p>
+          <p class="para mb-[21px]">
+            Warpinator received support for landlock and bubblewrap. These
+            technologies were used to guarantee folder isolation, basically
+            making Warpinator technically unable to write outside of its
+            dedicated download folder.
+          </p>
+          <p class="para pb-6">
+            Warpinator is used in many different ways and in different
+            environments. Whether it’s in an office with a secure network and a
+            multitude of computers which trust each others and are constantly
+            open to transfers… or on a public Wifi between two friends’ laptops,
+            or even as we recently mentioned just you sending files to yourself
+            from/to a smartphone, a steam deck or another box. We want
+            Warpinator to work for everyone, to be as secure as possible in
+            environments where it’s setup to be secure (with a group code,
+            autostart, auto-accepting requests etc..), and to require no
+            configuration in use cases where users themselves communicate first
+            and don’t rely on the network to trust each others.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- improvements section -->
+
+    <section class="py-12">
+      <div class="md:container feature-c">
+        <div class="xl:w-[999px]">
+          <h4 class="text-[22.5px] font-semibold mb-[22px]">
+            Other improvements
+          </h4>
+          <p class="para mb-[21px]">Blueman was upgraded to version 2.3.5.</p>
+          <p class="para mb-[21px]">
+            Linux Mint 21.2 features full support for HEIF and AVIF image files.
+          </p>
+          <p class="para mb-[21px]">
+            Adobe Illustrator documents are supported by Xreader, the Document
+            Viewer.
+          </p>
+          <p class="para mb-[21px]">
+            Mint-Y-Legacy was renamed Mint-L. If you enjoy the “Darker” themes,
+            it’s never been easier to select. And now that the mono icons are
+            gone it’s compatible with fullcolor applications.
+          </p>
+          <p class="para mb-[21px]">
+            Folder-color-switcher no longer tries to guess icon colors based on
+            their theme name. The color matches are defined
+            /usr/share/folder-color-switcher/colors.d/.
+          </p>
+          <p class="para mb-[21px]">
+            Xreader defaults to page mode with a maximized window.
+          </p>
+          <p class="para pb-6">
+            Nvidia offload is now handled by libxapp and delegated to
+            switcheroo. This is used by Cinnamon and mintmenu.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- artwork section -->
+
+    <section class="py-12 bg-[#f0f1f3]">
+      <div class="md:container feature-c">
+        <div class="xl:w-[999px]">
+          <h4 class="text-[22.5px] font-semibold mb-[22px]">
+            Artwork improvements
+          </h4>
+          <p class="para mb-[21px]">
+            Linux Mint 21.2 features a superb collection of backgrounds from
+            <a
+              class="text-[#48ae55] transition-color hover:text-[#398a44]"
+              href="https://500px.com/bfantinatti"
+              >Bruno Fantinatti</a
+            >,
+            <a
+              class="text-[#48ae55] transition-color hover:text-[#398a44]"
+              href="https://www.instagram.com/itsbilalmn"
+              >Bilal Mansuri</a
+            >,
+            <a
+              class="text-[#48ae55] transition-color hover:text-[#398a44]"
+              href="https://www.jonathangallegos.com/"
+              >Jonathan Gallegos</a
+            >,
+            <a
+              class="text-[#48ae55] transition-color hover:text-[#398a44]"
+              href="https://unsplash.com/fr/@juliusrinke"
+              >Julius Rinke</a
+            >,
+            <a
+              class="text-[#48ae55] transition-color hover:text-[#398a44]"
+              href="https://unsplash.com/@kazuuuki_taira"
+              >Kazuki Taira</a
+            >,
+            <a
+              class="text-[#48ae55] transition-color hover:text-[#398a44]"
+              href="https://lorenzoherrera.com"
+              >Lorenzo Herrera</a
+            >,
+            <a
+              class="text-[#48ae55] transition-color hover:text-[#398a44]"
+              href="https://unsplash.com/@mikeenerio"
+              >Mike Enerio</a
+            >,
+            <a
+              class="text-[#48ae55] transition-color hover:text-[#398a44]"
+              href="https://www.instagram.com/markos.mant"
+              >Markos Mant</a
+            >,
+            <a
+              class="text-[#48ae55] transition-color hover:text-[#398a44]"
+              href="https://unsplash.com/fr/@masamasa3"
+              >Masahiro Miyagi</a
+            >,
+            <a
+              class="text-[#48ae55] transition-color hover:text-[#398a44]"
+              href="https://nohassi.bio.link"
+              >Mohamed Nohassi</a
+            >,
+            <a
+              class="text-[#48ae55] transition-color hover:text-[#398a44]"
+              href="https://marpiwnicki.github.io"
+              >Marek Piwnicki</a
+            >,
+            <a
+              class="text-[#48ae55] transition-color hover:text-[#398a44]"
+              href="https://unsplash.com/fr/@nguyendhn"
+              >Nguyen Dang Hoang Nhu</a
+            >,
+            <a
+              class="text-[#48ae55] transition-color hover:text-[#398a44]"
+              href="https://unsplash.com/@pawel_czerwinski"
+              >Pawel Czerwinski</a
+            >,
+            <a
+              class="text-[#48ae55] transition-color hover:text-[#398a44]"
+              href="https://punttim.carrd.co"
+              >Tim Gouw</a
+            >,
+            <a
+              class="text-[#48ae55] transition-color hover:text-[#398a44]"
+              href="https://www.instagram.com/derstudi"
+              >Timon Studler</a
+            >
+            and
+            <a
+              class="text-[#48ae55] transition-color hover:text-[#398a44]"
+              href="#"
+              >Vanessa Friedl</a
+            >.
+          </p>
+          <div class="bold-text flex flex-col items-center mb-[20px]">
+            <div class="max-w-[526px]">
+              <a
+                href="https://linuxmint.com/pictures/screenshots/victoria/backgrounds.png"
+              >
+                <img
+                  class="mb-[20px] rounded-[3px] pix-shadow"
+                  src="./images/backgrounds.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            An overview of the new backgrounds
+          </div>
+          <h4 class="text-[22.5px] font-semibold mb-[22px]">Main components</h4>
+          <p class="para mb-[21px]">
+            Linux Mint 21.2 features MATE 1.26, a Linux kernel 5.15 and an
+            Ubuntu 22.04 package base.
+          </p>
+          <h4 class="text-[22.5px] font-semibold mb-[22px]">LTS strategy</h4>
+          <p class="para mb-[21px]">
+            Linux Mint 21.2 will receive security updates until 2027.
+          </p>
+          <p class="para mb-[21px]">
+            Until 2024, future versions of Linux Mint will use the same package
+            base as Linux Mint 21.2, making it trivial for people to upgrade.
+          </p>
+          <p class="para pb-6">
+            Until 2024, the development team won't start working on a new base
+            and will be fully focused on this one.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- partners-section -->
+
+    <section class="bg-[#343a40]">
+      <div class="md:container">
+        <div class="partners-res row justify-center items-center py-4">
+          <a href="https://play.google.com/store/apps/dev?id=9070296388022589266">
+            <img
+              class="w-[150px] m-[30px]"
+              src="./images/download-sponser-1.svg"
+              alt=""
+            />
+          </a>
+          <a href="https://sucuri.net/">
+            <img
+              class="w-[150px] m-[30px]"
+              src="./images/download-sponser-2.svg"
+              alt=""
+            />
+          </a>
+          <a href="https://www.bgasoft.com/">
+            <img
+              class="w-[150px] m-[30px]"
+              src="./images/download-sponser-3.png"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================
+	footer  -->
+    <footer class="bg-[#343a40] text-[#d5d5d5] pt-[4.5rem]">
+      <div class="footer-content">
+        <div class="xl:container">
+          <div class="row footer-wrap xl:flex-nowrap footer-res-1">
+            <!-- Footer widget 1 -->
+            <div class="footer-para-1 xl:w-[300px] xl:h-[212px]">
+              <div class="">
+                <div class="xl:w-[270px] xl:h-[162px] mx-auto">
+                  <a class="logo-center" href="/">
+                    <img
+                      class="w-[207px]"
+                      src="./images/footer-logo.svg"
+                      alt=""
+                    />
+                  </a>
+                  <p
+                    class="par-foot-1 text-[0.9375rem] font-normal leading-[1.6] xl:w-[270px] mt-4"
+                  >
+                    Thanks to your donations and advertising Linux Mint is
+                    completely free of charge. We hope you'll enjoy using it as
+                    much as we enjoy working on it.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="footer-para-2 xl:w-[300px] xl:h-[212px]">
+              <p
+                class="par-foot-2 text-[0.9375rem] font-normal leading-[1.6] xl:w-[270px] mx-auto"
+              >
+                Almost all the packages we distribute are open-source. You can
+                find their source code on
+                <a
+                  class="blog-date hover:text-[#398a44]"
+                  target="_blank"
+                  href="https://packages.ubuntu.com/"
+                  >https://packages.ubuntu.com</a
+                >,
+                <a class="blog-date hover:text-[#398a44]" href="#"
+                  >http://packages.linuxmint.com</a
+                >
+                or
+                <a
+                  class="blog-date hover:text-[#398a44]"
+                  target="_blank"
+                  href="https://github.com/linuxmint"
+                  >https://github.com/linuxmint</a
+                >. If you can't find what you're looking for contact us.
+              </p>
+            </div>
+            <div class="footer-col w-[200px] xl:h-[212px]">
+              <div class="ul-width xl:w-[170px] xl:h-[126px] mx-auto">
+                <h6 class="text-[1rem] font-medium">Quick Links</h6>
+                <ul class="flex flex-col flex-wrap">
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="download.html"
+                      >Download</a
+                    >
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="#"
+                      >Donate</a
+                    >
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="get-involved.html"
+                      >Get Involved</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-col w-[200px] xl:h-[212px]">
+              <div class="ul-width xl:w-[170px] h-[126px] mx-auto">
+                <h6 class="text-[1rem] font-medium">Info</h6>
+                <ul class="flex flex-col flex-wrap">
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="about.html">About</a>
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="faq.html">FAQ</a>
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="privacy&cookies.html"
+                      >Privacy & Cookies</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-col w-[200px] xl:h-[212px]">
+              <div class="ul-width xl:w-[170px] h-[126px] mx-auto">
+                <h6 class="text-[1rem] font-medium">Support</h6>
+                <ul class="flex flex-col flex-wrap">
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="#"
+                      >Installation Guide</a
+                    >
+                  </li>
+                  <li class="text-[0.9375rem] font-normal leading-[1.6] mt-2">
+                    <a class="blog-date hover:text-[#68c174]" href="#"
+                      >User Guide</a
+                    >
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="#"
+                      >Forums</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider h-[1px] w-[100%] mt-[19px]"></div>
+      <!-- footer copyright -->
+      <div class="copy-footer pt-8 pb-8 sm:px-5">
+        <div class="xl:container">
+          <div>
+            <div class="text-[0.9375rem] font-normal leading-[1.6]">
+              <p>
+                Linux Mint is copyrighted since 2006 and trademarked through the
+                Linux Mark Institute. All rights reserved.
+                <br />
+                Linux® is the registered trademark of Linus Torvalds in the U.S.
+                and other countries.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div>
+      <a class="back-top btn-grad btn-show" href="#"
+        ><i class="fa-solid fa-angle-up"></i
+      ></a>
+    </div>
+    <!-- =======================
+	footer  -->
+  </body>
+</html>

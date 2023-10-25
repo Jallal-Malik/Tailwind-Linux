@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Versions - Linux Mint</title>
+    <link rel="website icon" type="png" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/7c051f6c7f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- =======================
+	header Start-->
+    <header>
+      <div class="header bg-grad">
+        <div
+          class="navbar-top h-[px] lg:flex lg:items-center lg:pt-[3px] lg:pb-1 lg:top-nav-border hidden"
+        >
+          <div class="container">
+            <div class="flex justify-between items-center h-8">
+              <!-- navbar top Left-->
+              <div class="flex items-center">
+                <!-- Language -->
+                <!-- <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img class="dropdown-item-icon" src="web/img/flags/gb.png" alt=""> English </a>
+                                <div class="dropdown-menu mt-2 shadow" aria-labelledby="dropdownLanguage">
+                                    <span class="dropdown-item-text">Select language</span>
+                                    <div class="dropdown-divider"></div>
+                                  <a class="dropdown-item" href="#"><img class="dropdown-item-icon" src="web/img/flags/es.png" alt=""> Español</a>
+                                  <a class="dropdown-item" href="#"><img class="dropdown-item-icon" src="web/img/flags/fr.png" alt=""> Français</a>
+                                  <a class="dropdown-item" href="#"><img class="dropdown-item-icon" src="web/img/flags/de.png" alt=""> Deutsch</a>
+                                </div>
+                              </div> -->
+              </div>
+              <!-- navbar top Right-->
+              <div class="flex items-center">
+                <!-- top link -->
+                <!-- top social -->
+                <ul class="social-icons flex gap-5 text-white">
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-rss" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-hashtag" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fab fa-mastodon" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Logo Nav Start -->
+        <nav
+          class="lg:container flex flex-wrap justify-between items-center lg:my-5 lg:py-3 xl:px-4 pt-3 first-nav"
+        >
+          <a class="logo-1" href="#">
+            <img class="h-[48.2px]" src="./images/logo-mono.svg" alt="" />
+          </a>
+          <label for="toggler" class="linebar"
+            ><i class="fa fa-bars text-white text-[30px]"></i
+          ></label>
+          <input type="checkbox" id="toggler" />
+          <div class="menu">
+            <ul class="ul flex items-center">
+              <li class="lg:white nav-link home text-[#495057]">
+                <a href="#">Home</a>
+              </li>
+              <li
+                class="lg:white nav-link dropdown h-[57px] lg:mt-[35px] cursor-pointer transition-color text-[#8f9397]"
+              >
+                <input type="checkbox" id="menu-click" />
+                <label
+                  for="menu-click"
+                  class="items-center lg:gap-1 download-gap cursor-pointer"
+                >
+                  Download
+                  <i class="fas fa-angle-down text-[0.6rem] pt-[2px]"></i>
+                </label>
+                <div class="dropdown-menu">
+                  <div
+                    class="flex flex-wrap lg:flex-nowrap bg-[#fff] pt-4 pb-4"
+                  >
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold font-family text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Latest version
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a class="flex" href="download.html"
+                          >Linux Mint 21.2
+                          <div
+                            class="text-[#fff] bg-[#28a745] ml-2 py-[0.25em] px-[0.4em] text-[75%] font-bold rounded-[0.25rem] text-center"
+                          >
+                            Recommended
+                          </div></a
+                        >
+                      </li>
+                    </ul>
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Other versions
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="lmde-6.html">LMDE 6</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="all-versions.html">All versions</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="bg-grad lg:flex items-center p-6 checkout">
+                    <div class="mr-6">
+                      <h4 class="text-[#fbfbfb] text-[1.39rem] font-semibold">
+                        Checkout the doc!
+                      </h4>
+                      <small class="font-semibold white-i">
+                        Follow the guide to learn how to download and install
+                        Linux Mint.
+                      </small>
+                    </div>
+                    <a class="white hero-btn-2 whitespace-nowrap" href="#"
+                      >Installation Guide</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li
+                class="lg:white nav-link dropdown h-[57px] lg:mt-[35px] cursor-pointer transition-color text-[#8f9397]"
+              >
+                <input type="checkbox" id="menu-click2" />
+                <label
+                  for="menu-click2"
+                  class="items-center lg:gap-1 download-gap-2 cursor-pointer"
+                >
+                  Project
+                  <i class="fas fa-angle-down text-[0.6rem] pt-[2px]"></i>
+                </label>
+                <div class="dropdown-menu">
+                  <div
+                    class="flex flex-wrap lg:flex-nowrap bg-[#fff] pt-4 pb-4"
+                  >
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Funding
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="#">Donors</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="sponsors.html">Sponsors</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="partners.html">Partners</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="store.html">Store</a>
+                      </li>
+                    </ul>
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Contributing
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="get-involved.html">Get Involved</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="mirrors.html">Mirrors</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="bg-grad lg:flex items-center p-6 checkout">
+                    <div>
+                      <small class="font-semibold white-i">
+                        Every little helps, don't hesitate to get involved.
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="lg:white nav-link dropdown-a h-[57px] lg:mt-[35px] cursor-pointer transition-color text-[#8f9397]"
+              >
+                <input type="checkbox" id="menu-click3" />
+                <label
+                  for="menu-click3"
+                  class="items-center lg:gap-1 download-gap-3 cursor-pointer"
+                >
+                  About <i class="fas fa-angle-down text-[0.6rem] pt-[2px]"></i>
+                </label>
+                <div class="dropdown-menu">
+                  <div class="flex flex-wrap lg:flex-nowrap bg-[#fff] pt-4">
+                    <ul class="pr-12">
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="about.html">About Linux Mint</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="faq.html">FAQ</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="documentation.html">Documentation</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="screenshots.html">Screenshots</a>
+                      </li>
+                    </ul>
+                    <ul class="pr-12">
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="privacy&cookies.html">Privacy & Cookies</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="teams.html">Team</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="contactus.html">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="lg:white nav-link dropdown-a h-[57px] lg:mt-[35px] cursor-pointer transition-color text-[#8f9397]"
+              >
+                <input type="checkbox" id="menu-click4" />
+                <label
+                  for="menu-click4"
+                  class="items-center lg:gap-1 download-gap-4 cursor-pointer"
+                >
+                  Links <i class="fas fa-angle-down text-[0.6rem] pt-[2px]"></i>
+                </label>
+                <div class="dropdown-menu">
+                  <div
+                    class="flex flex-wrap lg:flex-nowrap bg-[#fff] pt-4 pb-4"
+                  >
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold font-family text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Official
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="index.html"
+                          target="_blank"
+                          ><i class="fas fa-igloo pr-[0.3rem]"></i> Website
+                          <div
+                            class="text-[#fff] bg-[#28a745] ml-2 py-[0.25em] px-[0.4em] text-[75%] font-bold rounded-[0.25rem] text-center"
+                          >
+                            Here
+                          </div></a
+                        >
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a class="flex items-center" href="#"
+                          ><i class="fas fa-blog pr-[0.3rem]"></i> Blog
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a class="flex items-center" href="#"
+                          ><i class="fas fa-comments pr-[0.3rem]"></i> Forums
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer checkout"
+                      >
+                        <a class="flex items-center" href="#"
+                          ><i class="fas fa-users pr-[0.3rem]"></i> Community
+                          website
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Social
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://www.github.com/linuxmint"
+                          ><i class="fab fa-github pr-[0.3rem]"></i> Github
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://www.facebook.com/pages/Linux-Mint/185238108180410"
+                          ><i class="fab fa-facebook pr-[0.3rem]"></i> Facebook
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://twitter.com/linux_mint"
+                          ><i class="fab fa-twitter pr-[0.3rem]"></i> Twitter
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer checkout"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://widget00.mibbit.com/?settings=afafcb2fef3d61ee26d44fe55394b54b&server=irc.spotchat.org&channel=%23linuxmint-help&autoConnect=1"
+                          ><i class="fas fa-hashtag pr-[0.3rem]"></i> IRC Chat
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Community
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://www.reddit.com/r/linuxmint/"
+                          ><i class="fab fa-reddit pr-[0.3rem]"></i> Reddit
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://discord.gg/mint"
+                          ><i class="fab fa-discord pr-[0.3rem]"></i> Discord
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a class="flex items-center" href="#"
+                          ><i class="fas fa-globe pr-[0.3rem]"></i> Local
+                          communities
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="bg-grad lg:flex items-center p-6 checkout">
+                    <div class="mr-6">
+                      <small class="font-semibold white-i">
+                        Websites in the right column are maintained by the
+                        community.
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <div class="xl:nav-button donate-btn b-radius donate-buttton">
+                <button>Donate</button>
+              </div>
+            </ul>
+          </div>
+        </nav>
+        <!-- hero-section-start -->
+        <div class="hero-section">
+          <div class="md:container about-h1">
+            <div>
+              <h1 class="text-[56px] white font-semibold pb-[3px]">
+                All Versions
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- =======================
+        header end-->
+
+    <!-- hero-below section -->
+
+    <section class="py-6">
+      <div class="xl:container">
+        <div class="first pb-[30px]">
+          <div class="text-center flex flex-col items-center">
+            <span
+              class="text-2xl italic font-normal text-[#495057] feature-family"
+              >Currently supported</span
+            >
+            <h2 class="text-4xl font-semibold mt-[14px]">
+              Linux Mint Releases
+            </h2>
+            <p class="para mt-[14px]">
+              The table below shows all the Linux Mint releases which are
+              currently supported.
+            </p>
+          </div>
+        </div>
+        <div class="second">
+          <div class="mb-12 responsive-table-1">
+            <table
+              class="table-2 bg-[#f0f1f3] border-2 border-solid border-[#dee2e6] w-[100%] tex-[#212529] mb-4"
+            >
+              <thead class="bg-grad white-i">
+                <tr>
+                  <th>VERSION</th>
+                  <th>CODENAME</th>
+                  <th>EDITION</th>
+                  <th class="responsive-2">PACKAGE BASE</th>
+                  <th class="responsive">STATUS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="4" class="para">21.2</td>
+                  <td rowspan="4" class="para">Victoria</td>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="cinnamon-edition.html"
+                      >Cinnamon
+                    </a>
+                  </td>
+                  <td rowspan="4" class="para responsive-2">Ubuntu Jammy</td>
+                  <td rowspan="4" class="para responsive">
+                    Long term support release (LTS), supported until April 2027.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="cinnamon-edge-edition.html"
+                      >Cinnamon (Edge)</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="mate-edition.html"
+                      >MATE
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="xfce-edition.html"
+                      >Xfce
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="3" class="para">21.1</td>
+                  <td rowspan="3" class="para">Vera</td>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="cinnamon-edition.html"
+                      >Cinnamon
+                    </a>
+                  </td>
+                  <td rowspan="3" class="para responsive-2">Ubuntu Jammy</td>
+                  <td rowspan="3" class="para responsive">
+                    Long term support release (LTS), supported until April 2027.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="mate-edition.html"
+                      >MATE
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="xfce-edition.html"
+                      >Xfce
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="3" class="para">21</td>
+                  <td rowspan="3" class="para">Vanessa</td>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="cinnamon-edition.html"
+                      >Cinnamon
+                    </a>
+                  </td>
+                  <td rowspan="3" class="para responsive-2">Ubuntu Jammy</td>
+                  <td rowspan="3" class="para responsive">
+                    Long term support release (LTS), supported until April 2027.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="mate-edition.html"
+                      >MATE
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="xfce-edition.html"
+                      >Xfce
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="5" class="para">20.3</td>
+                  <td rowspan="5" class="para">Una</td>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="cinnamon-edition.html"
+                      >Cinnamon
+                    </a>
+                  </td>
+                  <td rowspan="5" class="para responsive-2">Ubuntu Jammy</td>
+                  <td rowspan="5" class="para responsive">
+                    Long term support release (LTS), supported until April 2025.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="cinnamon-edge-edition.html"
+                      >Cinnamon (Edge)</a
+                    >
+                  </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="mate-edition.html"
+                      >MATE
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="xfce-edition.html"
+                      >Xfce
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="5" class="para">20.2</td>
+                  <td rowspan="5" class="para">Uma</td>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="cinnamon-edition.html"
+                      >Cinnamon
+                    </a>
+                  </td>
+                  <td rowspan="5" class="para responsive-2">Ubuntu Focal</td>
+                  <td rowspan="5" class="para responsive">
+                    Long term support release (LTS), supported until April 2025.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="cinnamon-edge-edition.html"
+                      >Cinnamon (Edge)</a
+                    >
+                  </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="mate-edition.html"
+                      >MATE
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="xfce-edition.html"
+                      >Xfce
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="5" class="para">20.1</td>
+                  <td rowspan="5" class="para">Ulyssa</td>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="cinnamon-edition.html"
+                      >Cinnamon
+                    </a>
+                  </td>
+                  <td rowspan="5" class="para responsive-2">Ubuntu Focal</td>
+                  <td rowspan="5" class="para responsive">
+                    Long term support release (LTS), supported until April 2025.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="cinnamon-edge-edition.html"
+                      >Cinnamon (Edge)</a
+                    >
+                  </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="mate-edition.html"
+                      >MATE
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="xfce-edition.html"
+                      >Xfce
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="4" class="para">20</td>
+                  <td rowspan="4" class="para">Ulyana</td>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="cinnamon-edition.html"
+                      >Cinnamon
+                    </a>
+                  </td>
+                  <td rowspan="4" class="para responsive-2">Ubuntu Focal</td>
+                  <td rowspan="4" class="para responsive">
+                    Long term support release (LTS), supported until April 2025.
+                  </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="mate-edition.html"
+                      >MATE
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="xfce-edition.html"
+                      >Xfce
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Faye</td>
+                  <td>
+                    <a
+                      class="text-[#48ae55] transition-color hover:text-[#398a44]"
+                      href="cinnamon-edition.html"
+                      >Cinnamon
+                    </a>
+                  </td>
+                  <td class="responsive-2">Debian Bookworm</td>
+                  <td class="responsive">Long term support release (LTS).</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- partners-section -->
+
+    <section class="bg-[#343a40]">
+      <div class="2xl:container">
+        <div
+          class="partners-res row justify-center items-center py-4 xl:mr-0 xl:ml-0"
+        >
+          <a
+            href="https://play.google.com/store/apps/dev?id=9070296388022589266"
+          >
+            <img
+              class="w-[150px] m-[30px]"
+              src="./images/download-sponser-1.svg"
+              alt=""
+            />
+          </a>
+          <a href="https://sucuri.net/">
+            <img
+              class="w-[150px] m-[30px]"
+              src="./images/download-sponser-2.svg"
+              alt=""
+            />
+          </a>
+          <a href="https://www.bgasoft.com/">
+            <img
+              class="w-[150px] m-[30px]"
+              src="./images/download-sponser-3.png"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================
+	footer  -->
+    <footer class="bg-[#343a40] text-[#d5d5d5] pt-[4.5rem]">
+      <div class="footer-content">
+        <div class="xl:container">
+          <div class="row footer-wrap xl:flex-nowrap footer-res-1">
+            <!-- Footer widget 1 -->
+            <div class="footer-para-1 xl:w-[300px] xl:h-[212px]">
+              <div class="">
+                <div class="xl:w-[270px] xl:h-[162px] mx-auto">
+                  <a class="logo-center" href="/">
+                    <img
+                      class="w-[207px]"
+                      src="./images/footer-logo.svg"
+                      alt=""
+                    />
+                  </a>
+                  <p
+                    class="par-foot-1 text-[0.9375rem] font-normal leading-[1.6] xl:w-[270px] mt-4"
+                  >
+                    Thanks to your donations and advertising Linux Mint is
+                    completely free of charge. We hope you'll enjoy using it as
+                    much as we enjoy working on it.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="footer-para-2 xl:w-[300px] xl:h-[212px]">
+              <p
+                class="par-foot-2 text-[0.9375rem] font-normal leading-[1.6] xl:w-[270px] mx-auto"
+              >
+                Almost all the packages we distribute are open-source. You can
+                find their source code on
+                <a
+                  class="blog-date hover:text-[#398a44]"
+                  target="_blank"
+                  href="https://packages.ubuntu.com/"
+                  >https://packages.ubuntu.com</a
+                >,
+                <a class="blog-date hover:text-[#398a44]" href="#"
+                  >http://packages.linuxmint.com</a
+                >
+                or
+                <a
+                  class="blog-date hover:text-[#398a44]"
+                  target="_blank"
+                  href="https://github.com/linuxmint"
+                  >https://github.com/linuxmint</a
+                >. If you can't find what you're looking for contact us.
+              </p>
+            </div>
+            <div class="footer-col w-[200px] xl:h-[212px]">
+              <div class="ul-width xl:w-[170px] xl:h-[126px] mx-auto">
+                <h6 class="text-[1rem] font-medium">Quick Links</h6>
+                <ul class="flex flex-col flex-wrap">
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a
+                      class="blog-date hover:text-[#68c174]"
+                      href="download.html"
+                      >Download</a
+                    >
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="#"
+                      >Donate</a
+                    >
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a
+                      class="blog-date hover:text-[#68c174]"
+                      href="get-involved.html"
+                      >Get Involved</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-col w-[200px] xl:h-[212px]">
+              <div class="ul-width xl:w-[170px] h-[126px] mx-auto">
+                <h6 class="text-[1rem] font-medium">Info</h6>
+                <ul class="flex flex-col flex-wrap">
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="about.html"
+                      >About</a
+                    >
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="faq.html"
+                      >FAQ</a
+                    >
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a
+                      class="blog-date hover:text-[#68c174]"
+                      href="privacy&cookies.html"
+                      >Privacy & Cookies</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-col w-[200px] xl:h-[212px]">
+              <div class="ul-width xl:w-[170px] h-[126px] mx-auto">
+                <h6 class="text-[1rem] font-medium">Support</h6>
+                <ul class="flex flex-col flex-wrap">
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="#"
+                      >Installation Guide</a
+                    >
+                  </li>
+                  <li class="text-[0.9375rem] font-normal leading-[1.6] mt-2">
+                    <a class="blog-date hover:text-[#68c174]" href="#"
+                      >User Guide</a
+                    >
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="#"
+                      >Forums</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider h-[1px] w-[100%] mt-[19px]"></div>
+      <!-- footer copyright -->
+      <div class="copy-footer pt-8 pb-8 sm:px-5">
+        <div class="xl:container">
+          <div>
+            <div class="text-[0.9375rem] font-normal leading-[1.6]">
+              <p>
+                Linux Mint is copyrighted since 2006 and trademarked through the
+                Linux Mark Institute. All rights reserved.
+                <br />
+                Linux® is the registered trademark of Linus Torvalds in the U.S.
+                and other countries.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div>
+      <a class="back-top btn-grad btn-show" href="#"
+        ><i class="fa-solid fa-angle-up"></i
+      ></a>
+    </div>
+    <!-- =======================
+	footer  -->
+  </body>
+</html>
