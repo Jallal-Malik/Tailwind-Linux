@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Linux Mint - Linux Mint</title>
+    <link rel="website icon" type="png" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/7c051f6c7f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- =======================
+	header Start-->
+    <header>
+      <div class="header bg-grad">
+        <div
+          class="navbar-top h-[px] lg:flex lg:items-center lg:pt-[3px] lg:pb-1 lg:top-nav-border hidden"
+        >
+          <div class="container">
+            <div class="flex justify-between items-center h-8">
+              <!-- navbar top Left-->
+              <div class="flex items-center">
+                <!-- Language -->
+                <!-- <div class="dropdown">
+                                          <a class="dropdown-toggle" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img class="dropdown-item-icon" src="web/img/flags/gb.png" alt=""> English </a>
+                                          <div class="dropdown-menu mt-2 shadow" aria-labelledby="dropdownLanguage">
+                                              <span class="dropdown-item-text">Select language</span>
+                                              <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#"><img class="dropdown-item-icon" src="web/img/flags/es.png" alt=""> Español</a>
+                                            <a class="dropdown-item" href="#"><img class="dropdown-item-icon" src="web/img/flags/fr.png" alt=""> Français</a>
+                                            <a class="dropdown-item" href="#"><img class="dropdown-item-icon" src="web/img/flags/de.png" alt=""> Deutsch</a>
+                                          </div>
+                                        </div> -->
+              </div>
+              <!-- navbar top Right-->
+              <div class="flex items-center">
+                <!-- top link -->
+                <!-- top social -->
+                <ul class="social-icons flex gap-5 text-white">
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-rss" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-hashtag" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="inline-block list-none text-sm">
+                    <a href="#">
+                      <i class="fab fa-mastodon" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Logo Nav Start -->
+        <nav
+          class="lg:container flex flex-wrap justify-between items-center lg:my-5 lg:py-3 xl:px-4 pt-3 first-nav"
+        >
+          <a class="logo-1" href="#">
+            <img class="h-[48.2px]" src="./images/logo-mono.svg" alt="" />
+          </a>
+          <label for="toggler" class="linebar"
+            ><i class="fa fa-bars text-white text-[30px]"></i
+          ></label>
+          <input type="checkbox" id="toggler" />
+          <div class="menu">
+            <ul class="ul flex items-center">
+              <li class="lg:white nav-link home text-[#495057]">
+                <a href="#">Home</a>
+              </li>
+              <li
+                class="lg:white nav-link dropdown h-[57px] lg:mt-[35px] cursor-pointer transition-color text-[#8f9397]"
+              >
+                <input type="checkbox" id="menu-click" />
+                <label
+                  for="menu-click"
+                  class="items-center lg:gap-1 download-gap cursor-pointer"
+                >
+                  Download
+                  <i class="fas fa-angle-down text-[0.6rem] pt-[2px]"></i>
+                </label>
+                <div class="dropdown-menu">
+                  <div
+                    class="flex flex-wrap lg:flex-nowrap bg-[#fff] pt-4 pb-4"
+                  >
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold font-family text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Latest version
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a class="flex" href="download.html"
+                          >Linux Mint 21.2
+                          <div
+                            class="text-[#fff] bg-[#28a745] ml-2 py-[0.25em] px-[0.4em] text-[75%] font-bold rounded-[0.25rem] text-center"
+                          >
+                            Recommended
+                          </div></a
+                        >
+                      </li>
+                    </ul>
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Other versions
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="lmde-6.html">LMDE 6</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="all-versions.html">All versions</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="bg-grad lg:flex items-center p-6 checkout">
+                    <div class="mr-6">
+                      <h4 class="text-[#fbfbfb] text-[1.39rem] font-semibold">
+                        Checkout the doc!
+                      </h4>
+                      <small class="font-semibold white-i">
+                        Follow the guide to learn how to download and install
+                        Linux Mint.
+                      </small>
+                    </div>
+                    <a class="white hero-btn-2 whitespace-nowrap" href="#"
+                      >Installation Guide</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li
+                class="lg:white nav-link dropdown h-[57px] lg:mt-[35px] cursor-pointer transition-color text-[#8f9397]"
+              >
+                <input type="checkbox" id="menu-click2" />
+                <label
+                  for="menu-click2"
+                  class="items-center lg:gap-1 download-gap-2 cursor-pointer"
+                >
+                  Project
+                  <i class="fas fa-angle-down text-[0.6rem] pt-[2px]"></i>
+                </label>
+                <div class="dropdown-menu">
+                  <div
+                    class="flex flex-wrap lg:flex-nowrap bg-[#fff] pt-4 pb-4"
+                  >
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Funding
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="#">Donors</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="sponsors.html">Sponsors</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="partners.html">Partners</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="store.html">Store</a>
+                      </li>
+                    </ul>
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Contributing
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="get-involved.html">Get Involved</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="mirrors.html">Mirrors</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="bg-grad lg:flex items-center p-6 checkout">
+                    <div>
+                      <small class="font-semibold white-i">
+                        Every little helps, don't hesitate to get involved.
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="lg:white nav-link dropdown-a h-[57px] lg:mt-[35px] cursor-pointer transition-color text-[#8f9397]"
+              >
+                <input type="checkbox" id="menu-click3" />
+                <label
+                  for="menu-click3"
+                  class="items-center lg:gap-1 download-gap-3 cursor-pointer"
+                >
+                  About <i class="fas fa-angle-down text-[0.6rem] pt-[2px]"></i>
+                </label>
+                <div class="dropdown-menu">
+                  <div class="flex flex-wrap lg:flex-nowrap bg-[#fff] pt-4">
+                    <ul class="pr-12">
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="about.html">About Linux Mint</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="faq.html">FAQ</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="documentation.html">Documentation</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="screenshots.html">Screenshots</a>
+                      </li>
+                    </ul>
+                    <ul class="pr-12">
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="privacy&cookies.html">Privacy & Cookies</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="teams.html">Team</a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-[1.6rem] hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a href="contactus.html">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="lg:white nav-link dropdown-a h-[57px] lg:mt-[35px] cursor-pointer transition-color text-[#8f9397]"
+              >
+                <input type="checkbox" id="menu-click4" />
+                <label
+                  for="menu-click4"
+                  class="items-center lg:gap-1 download-gap-4 cursor-pointer"
+                >
+                  Links <i class="fas fa-angle-down text-[0.6rem] pt-[2px]"></i>
+                </label>
+                <div class="dropdown-menu">
+                  <div
+                    class="flex flex-wrap lg:flex-nowrap bg-[#fff] pt-4 pb-4"
+                  >
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold font-family text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Official
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="index.html"
+                          target="_blank"
+                          ><i class="fas fa-igloo pr-[0.3rem]"></i> Website
+                          <div
+                            class="text-[#fff] bg-[#28a745] ml-2 py-[0.25em] px-[0.4em] text-[75%] font-bold rounded-[0.25rem] text-center"
+                          >
+                            Here
+                          </div></a
+                        >
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a class="flex items-center" href="#"
+                          ><i class="fas fa-blog pr-[0.3rem]"></i> Blog
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a class="flex items-center" href="#"
+                          ><i class="fas fa-comments pr-[0.3rem]"></i> Forums
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer checkout"
+                      >
+                        <a class="flex items-center" href="#"
+                          ><i class="fas fa-users pr-[0.3rem]"></i> Community
+                          website
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Social
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://www.github.com/linuxmint"
+                          ><i class="fab fa-github pr-[0.3rem]"></i> Github
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://www.facebook.com/pages/Linux-Mint/185238108180410"
+                          ><i class="fab fa-facebook pr-[0.3rem]"></i> Facebook
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://twitter.com/linux_mint"
+                          ><i class="fab fa-twitter pr-[0.3rem]"></i> Twitter
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer checkout"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://widget00.mibbit.com/?settings=afafcb2fef3d61ee26d44fe55394b54b&server=irc.spotchat.org&channel=%23linuxmint-help&autoConnect=1"
+                          ><i class="fas fa-hashtag pr-[0.3rem]"></i> IRC Chat
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="pr-12">
+                      <li
+                        class="font-semibold text-[0.9375rem] text-[#343a40] py-2 px-6 whitespace-nowrap"
+                      >
+                        Community
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://www.reddit.com/r/linuxmint/"
+                          ><i class="fab fa-reddit pr-[0.3rem]"></i> Reddit
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a
+                          class="flex items-center"
+                          href="https://discord.gg/mint"
+                          ><i class="fab fa-discord pr-[0.3rem]"></i> Discord
+                        </a>
+                      </li>
+                      <li
+                        class="font-normal text-[#495057] text-[0.9375rem] whitespace-nowrap py-2 px-6 hover:text-[#68c174] transition-color cursor-pointer"
+                      >
+                        <a class="flex items-center" href="#"
+                          ><i class="fas fa-globe pr-[0.3rem]"></i> Local
+                          communities
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="bg-grad lg:flex items-center p-6 checkout">
+                    <div class="mr-6">
+                      <small class="font-semibold white-i">
+                        Websites in the right column are maintained by the
+                        community.
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <div class="xl:nav-button donate-btn b-radius donate-buttton">
+                <button>Donate</button>
+              </div>
+            </ul>
+          </div>
+        </nav>
+        <!-- hero-section-start -->
+        <div class="hero-section">
+          <div class="md:container about-h1">
+            <div>
+              <h1 class="text-[56px] white font-semibold pb-[3px]">
+                About Linux Mint
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- =======================
+                  header end-->
+
+    <!-- hero below section -->
+
+    <section class="py-12">
+      <div class="xl:container">
+        <div class="row about-row">
+          <div class="max-w-[83.33333%]">
+            <p class="para">
+              Linux Mint is one of the most popular desktop Linux distributions
+              and used by millions of people.
+            </p>
+            <p class="para mt-[21px] mb-[21px]">
+              It is one of the best alternatives to Microsoft Windows and Apple
+              MacOS.
+            </p>
+            <h2 class="text-[30px] text-[#68c174] font-medium mb-6">Purpose</h2>
+            <p class="para">
+              The purpose of Linux Mint is to produce a modern, elegant and
+              comfortable operating system which is both powerful and easy to
+              use.
+            </p>
+            <p class="para mt-[21px] mb-[21px]">
+              Some of the reasons for the success of Linux Mint are:
+            </p>
+            <ul
+              class="list-disc text-[#495057] text-[0.9375rem] flex flex-col gap-[2px] ml-[18px] mb-[21px]"
+            >
+              <li>
+                It works out of the box, with full multimedia support and is
+                extremely easy to use.
+              </li>
+              <li>It's both free of cost and open source.</li>
+              <li>
+                It's community-driven. Users are encouraged to send feedback to
+                the project so that their ideas can be used to improve Linux
+                Mint.
+              </li>
+              <li>
+                Based on Debian and Ubuntu, it provides about 30,000 packages
+                and one of the best software managers.
+              </li>
+              <li>
+                It's safe and reliable—thanks to conservative software updates,
+                a unique Update Manager, and its robust Linux architecture.
+              </li>
+              <li>
+                Linux Mint requires very little maintenance (no regressions, no
+                antivirus, no anti-spyware...etc).
+              </li>
+            </ul>
+            <h2 class="text-[30px] text-[#68c174] font-medium mb-6">History</h2>
+            <p class="para mb-[30px]">
+              In 2021 Linux Mint celebrated its 15th anniversary. Let's take a
+              look back at how it all started and some of the events which have
+              helped shape what it is today.
+            </p>
+            <div class="row">
+              <div class="col-md"></div>
+              <div class="timeline col-md-1">
+                <div
+                  class="timeline-dot h-[30px] w-[30px] bg-[#fbfbfb] text-center rounded-[50%]"
+                ></div>
+              </div>
+              <div>
+                <div class="about-card sm:w-[485px]">
+                  <div class="p-5">
+                    <div class="flex justify-between">
+                      <h4 class="text-[1.40625rem] text-[#343a40] font-medium">
+                        Articles & reviews
+                      </h4>
+                      <small class="font-semibold">2006</small>
+                    </div>
+                    <p class="para mt-2">
+                      Clement Lefebvre, a French developer now commonly known as
+                      "Clem", was writing reviews and tutorials for various
+                      Linux sites. To host his own articles he started a website
+                      called "Linux Mint".
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <div class="about-card sm:w-[460px]">
+                  <div class="p-5">
+                    <div class="flex justify-between">
+                      <h4 class="text-[1.40625rem] text-[#343a40] font-medium">
+                        Early releases
+                      </h4>
+                      <small class="font-semibold">2006</small>
+                    </div>
+                    <p class="para mt-[8px] mb-[21px]">
+                      After a time, he began to get a flavour for what the
+                      community wanted out of a distribution and started
+                      implementing solutions to common problems. In August of
+                      2006, Linux Mint 1.0 “Ada”, based on Kubuntu 6.06 was
+                      released.
+                    </p>
+                    <p class="para mb-[21px]">
+                      In November 2006, he switched to a GNOME desktop with
+                      Linux Mint 2.0 “Barbara”, based on Ubuntu 6.10.
+                    </p>
+                    <p>
+                      <img src="./images/ada.jpg" alt="" />
+                    </p>
+                    <div>
+                      <a
+                        class="font-medium text-[0.9375rem] text-[#8f9397] flex items-center py-[0.425rem] mt-[21px]"
+                        href="#"
+                      >
+                        <div
+                          class="bg-[#f0f1f3] text-[#8f9397] font-semibold h-[24px] w-[24px] flex items-center justify-center rounded-[50%] mr-[10px] text-[11px]"
+                        >
+                          01
+                        </div>
+                        GNOME desktop
+                      </a>
+                      <a
+                        class="font-medium text-[0.9375rem] text-[#8f9397] flex items-center py-[0.425rem]"
+                        href="#"
+                      >
+                        <div
+                          class="bg-[#f0f1f3] text-[#8f9397] font-semibold h-[24px] w-[24px] flex items-center justify-center rounded-[50%] mr-[10px] text-[11px]"
+                        >
+                          02
+                        </div>
+                        Multimedia codecs
+                      </a>
+                      <a
+                        class="font-medium text-[0.9375rem] text-[#8f9397] flex items-center py-[0.425rem]"
+                        href="#"
+                      >
+                        <div
+                          class="bg-[#f0f1f3] text-[#8f9397] font-semibold h-[24px] w-[24px] flex items-center justify-center rounded-[50%] mr-[10px] text-[11px]"
+                        >
+                          03
+                        </div>
+                        Improved support for Wifi and NVIDIA
+                      </a>
+                      <a
+                        class="font-medium text-[0.9375rem] text-[#8f9397] flex items-center py-[0.425rem]"
+                        href="#"
+                      >
+                        <div
+                          class="bg-[#f0f1f3] text-[#8f9397] font-semibold h-[24px] w-[24px] flex items-center justify-center rounded-[50%] mr-[10px] text-[11px]"
+                        >
+                          04
+                        </div>
+                        Added configuration options
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline col-md-1">
+                <div
+                  class="timeline-dot h-[30px] w-[30px] bg-[#fbfbfb] text-center rounded-[50%]"
+                ></div>
+              </div>
+              <div class="col-md"></div>
+            </div>
+            <div class="row">
+              <div class="col-md"></div>
+              <div class="timeline col-md-1">
+                <div
+                  class="timeline-dot h-[30px] w-[30px] bg-[#fbfbfb] text-center rounded-[50%]"
+                ></div>
+              </div>
+              <div>
+                <div class="about-card sm:w-[485px]">
+                  <div class="p-5">
+                    <div class="flex justify-between">
+                      <h4 class="text-[1.40625rem] text-[#343a40] font-medium">
+                        A new ambition
+                      </h4>
+                      <small class="font-semibold">2007</small>
+                    </div>
+                    <p class="para mt-[8px] mb-[21px]">
+                      The project is extremely popular and grows rapidly. A team
+                      is formed, forums chat rooms and a website are open.
+                    </p>
+                    <p class="para mb-[21px]">
+                      By the time Linux Mint 3.0 "Cassandra" is released the
+                      project has a new logo, its own identity and the ambition
+                      to rival Windows and Mac OS.
+                    </p>
+                    <p>
+                      <img src="./images/cassandra.jpg" alt="" />
+                    </p>
+                    <div>
+                      <a
+                        class="font-medium text-[0.9375rem] text-[#8f9397] flex items-center py-[0.425rem] mt-[21px]"
+                        href="#"
+                      >
+                        <div
+                          class="bg-[#f0f1f3] text-[#8f9397] font-semibold h-[24px] w-[24px] flex items-center justify-center rounded-[50%] mr-[10px] text-[11px]"
+                        >
+                          01
+                        </div>
+                        Filtered app menu
+                      </a>
+                      <a
+                        class="font-medium text-[0.9375rem] text-[#8f9397] flex items-center py-[0.425rem]"
+                        href="#"
+                      >
+                        <div
+                          class="bg-[#f0f1f3] text-[#8f9397] font-semibold h-[24px] w-[24px] flex items-center justify-center rounded-[50%] mr-[10px] text-[11px]"
+                        >
+                          02
+                        </div>
+                        App store
+                      </a>
+                      <a
+                        class="font-medium text-[0.9375rem] text-[#8f9397] flex items-center py-[0.425rem]"
+                        href="#"
+                      >
+                        <div
+                          class="bg-[#f0f1f3] text-[#8f9397] font-semibold h-[24px] w-[24px] flex items-center justify-center rounded-[50%] mr-[10px] text-[11px]"
+                        >
+                          03
+                        </div>
+                        Disk management
+                      </a>
+                      <a
+                        class="font-medium text-[0.9375rem] text-[#8f9397] flex items-center py-[0.425rem]"
+                        href="#"
+                      >
+                        <div
+                          class="bg-[#f0f1f3] text-[#8f9397] font-semibold h-[24px] w-[24px] flex items-center justify-center rounded-[50%] mr-[10px] text-[11px]"
+                        >
+                          04
+                        </div>
+                        NTFS support
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <div class="about-card sm:w-[460px]">
+                  <div class="p-5">
+                    <div class="flex justify-between">
+                      <h4 class="text-[1.40625rem] text-[#343a40] font-medium">
+                        Development & growth
+                      </h4>
+                      <small class="font-semibold">2007-2010</small>
+                    </div>
+                    <p class="para mt-[8px] mb-[21px]">
+                      Linux Mint rises to the top and joins Ubuntu as one of the
+                      most popular desktops on the market.
+                    </p>
+                    <p>
+                      <img src="./images/felicia.png" alt="" />
+                    </p>
+                    <p class="para mt-[21px] mb-[21px]">
+                      Between Linux Mint 4.0 "Daryna" and Linux Mint 9.0
+                      "Isadora", more and more tools make Linux Mint unique:
+                      mintupdate, mintinstall, mintdisk, mintmenu, mintdesktop,
+                      mintnanny, mintbackup, mintstick, mintwelcome,
+                      mintupload...
+                    </p>
+                    <p>
+                      <img src="./images/gloria.png" alt="" />
+                    </p>
+                    <div>
+                      <a
+                        class="font-medium text-[0.9375rem] text-[#8f9397] flex items-center py-[0.425rem] mt-[21px]"
+                        href="#"
+                      >
+                        <div
+                          class="bg-[#f0f1f3] text-[#8f9397] font-semibold h-[24px] w-[24px] flex items-center justify-center rounded-[50%] mr-[10px] text-[11px]"
+                        >
+                          01
+                        </div>
+                        Update Manager
+                      </a>
+                      <a
+                        class="font-medium text-[0.9375rem] text-[#8f9397] flex items-center py-[0.425rem]"
+                        href="#"
+                      >
+                        <div
+                          class="bg-[#f0f1f3] text-[#8f9397] font-semibold h-[24px] w-[24px] flex items-center justify-center rounded-[50%] mr-[10px] text-[11px]"
+                        >
+                          02
+                        </div>
+                        Unique features
+                      </a>
+                      <a
+                        class="font-medium text-[0.9375rem] text-[#8f9397] flex items-center py-[0.425rem]"
+                        href="#"
+                      >
+                        <div
+                          class="bg-[#f0f1f3] text-[#8f9397] font-semibold h-[24px] w-[24px] flex items-center justify-center rounded-[50%] mr-[10px] text-[11px]"
+                        >
+                          03
+                        </div>
+                        Many Mint tools are developed
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline col-md-1">
+                <div
+                  class="timeline-dot h-[30px] w-[30px] bg-[#fbfbfb] text-center rounded-[50%]"
+                ></div>
+              </div>
+              <div class="col-md"></div>
+            </div>
+            <div class="row">
+              <div class="col-md"></div>
+              <div class="timeline col-md-1">
+                <div
+                  class="timeline-dot h-[30px] w-[30px] bg-[#fbfbfb] text-center rounded-[50%]"
+                ></div>
+              </div>
+              <div>
+                <div class="about-card sm:w-[485px]">
+                  <div class="p-5">
+                    <div class="flex justify-between">
+                      <h4 class="text-[1.40625rem] text-[#343a40] font-medium">
+                        A mature desktop
+                      </h4>
+                      <small class="font-semibold">2010</small>
+                    </div>
+                    <p class="para mt-[8px] mb-[21px]">
+                      Linux Mint features a desktop experience based on GNOME 2
+                      which has matured for now more than 5 years. It is
+                      full-featured, extremely stable and very popular.
+                    </p>
+                    <p>
+                      <img src="./images/julia.png" alt="" />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <div class="about-card sm:w-[460px]">
+                  <div class="p-5">
+                    <div class="flex justify-between">
+                      <h4 class="text-[1.40625rem] text-[#343a40] font-medium">
+                        A traumatic release
+                      </h4>
+                      <small class="font-semibold">2011</small>
+                    </div>
+                    <p class="para mt-[8px] mb-[21px]">
+                      When GNOME 3 replaces GNOME 2 it's a catastrophe for Linux
+                      Mint. Many features (the panel, the tray, the menu...etc)
+                      are missing and neither the desktop, the theme engine nor
+                      the toolkit are stable.
+                    </p>
+                    <p class="para mt-[21px] mb-[21px]">
+                      Despite the reimplementation of most of the missing
+                      features, the release of Linux Mint 12 "Lisa" based on
+                      GNOME 3 is not good enough and is still to this day
+                      considered by the team as a regression.
+                    </p>
+                    <p>
+                      <img src="./images/lisa.png" alt="" />
+                    </p>
+                    <p class="para mt-[21px] mb-[21px]">
+                      To guarantee its future Linux Mint decides to widen the
+                      scope of its development and invests in 2 alternatives to
+                      GNOME 3: MATE, a joint project which consists in renaming
+                      GNOME 2 and bringing it back, and Cinnamon, a Mint
+                      project, which consists in adapting GNOME 3 and turning it
+                      into a full-featured desktop.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline col-md-1">
+                <div
+                  class="timeline-dot h-[30px] w-[30px] bg-[#fbfbfb] text-center rounded-[50%]"
+                ></div>
+              </div>
+              <div class="col-md"></div>
+            </div>
+            <div class="row mb-6">
+              <div class="col-md"></div>
+              <div class="timeline col-md-1">
+                <div
+                  class="timeline-dot h-[30px] w-[30px] bg-[#fbfbfb] text-center rounded-[50%]"
+                ></div>
+              </div>
+              <div>
+                <div class="about-card sm:w-[485px]">
+                  <div class="p-5">
+                    <div class="flex justify-between">
+                      <h4 class="text-[1.40625rem] text-[#343a40] font-medium">
+                        The modern era
+                      </h4>
+                      <small class="font-semibold">2012-present</small>
+                    </div>
+                    <p class="para mt-[8px] mb-[21px]">
+                      Since 2012 Linux Mint provides incremental improvements to
+                      what is a more and more refined desktop experience.
+                    </p>
+                    <p class="para mt-[8px] mb-[21px]">
+                      The team has boosted its development by focusing on 3
+                      desktop editions (Cinnamon, MATE and Xfce) and by taking
+                      the decisions in 2014 to only use long-term support
+                      releases.
+                    </p>
+                    <p>
+                      <img src="./images/uma.png" alt="" />
+                    </p>
+                    <p class="para mt-[21px] mb-[21px]">
+                      The accent is put on quality vs quantity, on doing less to
+                      do it better and on pleasing existing users rather than
+                      trying to attract new ones.
+                    </p>
+                    <p class="para mt-[8px] mb-[21px]">
+                      Following the success of Cinnamon and its compatibility
+                      with other distributions, Linux Mint also started to
+                      develop cross-distribution and cross-desktop solutions.
+                      Nowadays some of the software developed by Linux Mint is
+                      enjoyed in many other distributions and bug reports and
+                      development are boosted by contributions from people
+                      outside of the Linux Mint community.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- partners-section -->
+
+    <section class="bg-[#343a40]">
+      <div class="xl:container">
+        <div class="row justify-center items-center py-4">
+          <a
+            href="https://play.google.com/store/apps/dev?id=9070296388022589266"
+          >
+            <img
+              class="w-[150px] m-[30px]"
+              src="./images/download-sponser-1.svg"
+              alt=""
+            />
+          </a>
+          <a href="https://sucuri.net/">
+            <img
+              class="w-[150px] m-[30px]"
+              src="./images/download-sponser-2.svg"
+              alt=""
+            />
+          </a>
+          <a href="https://www.bgasoft.com/">
+            <img
+              class="w-[150px] m-[30px]"
+              src="./images/download-sponser-3.png"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================
+        footer  -->
+    <footer class="bg-[#343a40] text-[#d5d5d5] pt-[4.5rem]">
+      <div class="footer-content">
+        <div class="xl:container">
+          <div class="row footer-wrap xl:flex-nowrap footer-res-1">
+            <!-- Footer widget 1 -->
+            <div class="footer-para-1 xl:w-[300px] xl:h-[212px]">
+              <div class="">
+                <div class="xl:w-[270px] xl:h-[162px] mx-auto">
+                  <a class="logo-center" href="/">
+                    <img
+                      class="w-[207px]"
+                      src="./images/footer-logo.svg"
+                      alt=""
+                    />
+                  </a>
+                  <p
+                    class="par-foot-1 text-[0.9375rem] font-normal leading-[1.6] xl:w-[270px] mt-4"
+                  >
+                    Thanks to your donations and advertising Linux Mint is
+                    completely free of charge. We hope you'll enjoy using it as
+                    much as we enjoy working on it.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="footer-para-2 xl:w-[300px] xl:h-[212px]">
+              <p
+                class="par-foot-2 text-[0.9375rem] font-normal leading-[1.6] xl:w-[270px] mx-auto"
+              >
+                Almost all the packages we distribute are open-source. You can
+                find their source code on
+                <a
+                  class="blog-date hover:text-[#398a44]"
+                  target="_blank"
+                  href="https://packages.ubuntu.com/"
+                  >https://packages.ubuntu.com</a
+                >,
+                <a class="blog-date hover:text-[#398a44]" href="#"
+                  >http://packages.linuxmint.com</a
+                >
+                or
+                <a
+                  class="blog-date hover:text-[#398a44]"
+                  target="_blank"
+                  href="https://github.com/linuxmint"
+                  >https://github.com/linuxmint</a
+                >. If you can't find what you're looking for contact us.
+              </p>
+            </div>
+            <div class="footer-col w-[200px] xl:h-[212px]">
+              <div class="ul-width xl:w-[170px] xl:h-[126px] mx-auto">
+                <h6 class="text-[1rem] font-medium">Quick Links</h6>
+                <ul class="flex flex-col flex-wrap">
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a
+                      class="blog-date hover:text-[#68c174]"
+                      href="download.html"
+                      >Download</a
+                    >
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="#"
+                      >Donate</a
+                    >
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a
+                      class="blog-date hover:text-[#68c174]"
+                      href="get-involved.html"
+                      >Get Involved</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-col w-[200px] xl:h-[212px]">
+              <div class="ul-width xl:w-[170px] h-[126px] mx-auto">
+                <h6 class="text-[1rem] font-medium">Info</h6>
+                <ul class="flex flex-col flex-wrap">
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="about.html"
+                      >About</a
+                    >
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="faq.html"
+                      >FAQ</a
+                    >
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a
+                      class="blog-date hover:text-[#68c174]"
+                      href="privacy&cookies.html"
+                      >Privacy & Cookies</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-col w-[200px] xl:h-[212px]">
+              <div class="ul-width xl:w-[170px] h-[126px] mx-auto">
+                <h6 class="text-[1rem] font-medium">Support</h6>
+                <ul class="flex flex-col flex-wrap">
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="#"
+                      >Installation Guide</a
+                    >
+                  </li>
+                  <li class="text-[0.9375rem] font-normal leading-[1.6] mt-2">
+                    <a class="blog-date hover:text-[#68c174]" href="#"
+                      >User Guide</a
+                    >
+                  </li>
+                  <li
+                    class="text-[0.9375rem] font-normal leading-[1.6] mt-[10px]"
+                  >
+                    <a class="blog-date hover:text-[#68c174]" href="#"
+                      >Forums</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider h-[1px] w-[100%] mt-[19px]"></div>
+      <!-- footer copyright -->
+      <div class="copy-footer pt-8 pb-8 sm:px-5">
+        <div class="xl:container">
+          <div>
+            <div class="text-[0.9375rem] font-normal leading-[1.6]">
+              <p>
+                Linux Mint is copyrighted since 2006 and trademarked through the
+                Linux Mark Institute. All rights reserved.
+                <br />
+                Linux® is the registered trademark of Linus Torvalds in the U.S.
+                and other countries.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div>
+      <a class="back-top btn-grad btn-show" href="#"
+        ><i class="fa-solid fa-angle-up"></i
+      ></a>
+    </div>
+    <!-- =======================
+      footer  -->
+  </body>
+</html>
